@@ -1,0 +1,10494 @@
+{
+ "labels": {
+  "Label_0": {
+   "new": "Mod_Init_Main",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "calls Label_1 (theme init)"
+    ],
+    [
+     "+",
+     "calls Label_2 (safezone)"
+    ],
+    [
+     "+",
+     "sets network-safe"
+    ],
+    [
+     "+",
+     "126 static inits"
+    ]
+   ]
+  },
+  "Label_1": {
+   "new": "Mod_Init_UITheme",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "inits rows S223=10"
+    ],
+    [
+     "+",
+     "inits highlight tex names"
+    ],
+    [
+     "+",
+     "inits rows-choice S2[373]"
+    ]
+   ]
+  },
+  "Label_100": {
+   "new": "Page_JakeModz_Invisible_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "37 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['jake', 'outfit']"
+    ]
+   ]
+  },
+  "Label_101": {
+   "new": "Page_IvoAlqaedaMale_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "21 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['ivoalqaeda', 'outfit']"
+    ]
+   ]
+  },
+  "Label_1012": {
+   "new": "Vehicle_ShowIndustrialIdx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "1 param (model title)"
+    ],
+    [
+     "+",
+     "shows (N/M) suffix"
+    ],
+    [
+     "+",
+     "reads class slot S1[[120]]"
+    ]
+   ]
+  },
+  "Label_1019": {
+   "new": "Vehicle_ShowMilitaryIdx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "1 param (model title)"
+    ],
+    [
+     "+",
+     "shows (N/M) suffix"
+    ],
+    [
+     "+",
+     "reads class slot S1[[121]]"
+    ]
+   ]
+  },
+  "Label_102": {
+   "new": "Page_IvoFemaleOutfits_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "21 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['female', 'outfit']"
+    ]
+   ]
+  },
+  "Label_103": {
+   "new": "Page_MainsMods_PlayerOptions_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "7 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['main']"
+    ]
+   ]
+  },
+  "Label_1039": {
+   "new": "Vehicle_ShowPlanesIdx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "1 param (model title)"
+    ],
+    [
+     "+",
+     "shows (N/M) suffix"
+    ],
+    [
+     "+",
+     "reads class slot S1[[122]]"
+    ]
+   ]
+  },
+  "Label_104": {
+   "new": "Page_WeaponsOptions_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "44 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['arma', 'weapon']"
+    ]
+   ]
+  },
+  "Label_105": {
+   "new": "Page_VehicleOptions_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "83 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['vehicul']"
+    ]
+   ]
+  },
+  "Label_1056": {
+   "new": "Vehicle_ShowHelicoptersIdx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "1 param (model title)"
+    ],
+    [
+     "+",
+     "shows (N/M) suffix"
+    ],
+    [
+     "+",
+     "reads class slot S1[[123]]"
+    ]
+   ]
+  },
+  "Label_106": {
+   "new": "Page_VehicleSpawner_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "40 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['generador', 'spawn', 'vehicul']"
+    ]
+   ]
+  },
+  "Label_107": {
+   "new": "Page_SpawningSettings_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "15 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['generador', 'spawn', 'config']"
+    ]
+   ]
+  },
+  "Label_1071": {
+   "new": "Vehicle_ShowBoatsIdx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "1 param (model title)"
+    ],
+    [
+     "+",
+     "shows (N/M) suffix"
+    ],
+    [
+     "+",
+     "reads class slot S1[[124]]"
+    ]
+   ]
+  },
+  "Label_108": {
+   "new": "Page_SpriteToggle_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "18 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['sprite']"
+    ]
+   ]
+  },
+  "Label_109": {
+   "new": "Page_Settings_VerticalScrollbar_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "9 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['barra', 'scroll']"
+    ]
+   ]
+  },
+  "Label_1102": {
+   "new": "Vehicle_ShowVansIdx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "1 param (model title)"
+    ],
+    [
+     "+",
+     "shows (N/M) suffix"
+    ],
+    [
+     "+",
+     "reads class slot S1[[125]]"
+    ]
+   ]
+  },
+  "Label_111": {
+   "new": "Input_HandleScrollNav",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "NAV_UP_DOWN sound"
+    ],
+    [
+     "+",
+     "moves selection S197"
+    ],
+    [
+     "+",
+     "touches page-stack depth S174"
+    ]
+   ]
+  },
+  "Label_1114": {
+   "new": "Vehicle_ShowCommercialIdx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "1 param (model title)"
+    ],
+    [
+     "+",
+     "shows (N/M) suffix"
+    ],
+    [
+     "+",
+     "reads class slot S1[[126]]"
+    ]
+   ]
+  },
+  "Label_112": {
+   "new": "Tick_InputQueueAndToggles__MenuOpen",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_5 (Tick_InputQueueAndToggles)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_113": {
+   "new": "Tick_InputQueueAndToggles__AfterCustomCount",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_5 (Tick_InputQueueAndToggles)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_1133": {
+   "new": "Vehicle_ShowTrailersIdx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "1 param (model title)"
+    ],
+    [
+     "+",
+     "shows (N/M) suffix"
+    ],
+    [
+     "+",
+     "reads class slot S1[[127]]"
+    ]
+   ]
+  },
+  "Label_114": {
+   "new": "Tick_InputQueueAndToggles__CustomFull",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_5 (Tick_InputQueueAndToggles)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_115": {
+   "new": "Tick_InputQueueAndToggles__QueueDone",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_5 (Tick_InputQueueAndToggles)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_1151": {
+   "new": "UI_Calc_VisibleRows",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "draw natives / UI-core delegation / UI statics"
+    ]
+   ]
+  },
+  "Label_1152": {
+   "new": "UI_DrawWelcomeBanner",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "WELCOME banner"
+    ],
+    [
+     "+",
+     "centred"
+    ],
+    [
+     "+",
+     "1 param"
+    ]
+   ]
+  },
+  "Label_1153": {
+   "new": "UI_DrawPlayerNameBanner",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "player name"
+    ],
+    [
+     "+",
+     "centred"
+    ],
+    [
+     "+",
+     "1 param"
+    ]
+   ]
+  },
+  "Label_1154": {
+   "new": "UI_Draw_HeaderTitle",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "draw natives / UI-core delegation / UI statics"
+    ]
+   ]
+  },
+  "Label_1155": {
+   "new": "Lang_ApplyFromChoice",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "choice S2[374]"
+    ],
+    [
+     "+",
+     "sets lang flag S357"
+    ],
+    [
+     "+",
+     "language names"
+    ]
+   ]
+  },
+  "Label_1156": {
+   "new": "Util_LangPick_4Str",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "4 params"
+    ]
+   ]
+  },
+  "Label_1157": {
+   "new": "UI_DrawTwoStringBanner",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "two-string format"
+    ],
+    [
+     "+",
+     "style 260 + centre 389"
+    ],
+    [
+     "+",
+     "3 params"
+    ]
+   ]
+  },
+  "Label_1158": {
+   "new": "Input_IsAltActionPressed",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "reads control just-pressed"
+    ],
+    [
+     "+",
+     "plays click"
+    ]
+   ]
+  },
+  "Label_116": {
+   "new": "Tick_InputQueueAndToggles__Requested",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_5 (Tick_InputQueueAndToggles)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_1163": {
+   "new": "UI_Handle_MenuSelect",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "draw natives / UI-core delegation / UI statics"
+    ]
+   ]
+  },
+  "Label_1166": {
+   "new": "Entity_GetVehicleOrPed",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "in-vehicle check"
+    ],
+    [
+     "+",
+     "vehicle else ped"
+    ],
+    [
+     "+",
+     "0 params"
+    ]
+   ]
+  },
+  "Label_1168": {
+   "new": "PlayerMove_NameTable",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "77 move-style strings (25)"
+    ]
+   ]
+  },
+  "Label_1169": {
+   "new": "PlayerOpt_Row3_NameTable",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "58 option strings"
+    ]
+   ]
+  },
+  "Label_1170": {
+   "new": "UI_Draw_ToggleRow",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "draw natives / UI-core delegation / UI statics"
+    ]
+   ]
+  },
+  "Label_1179": {
+   "new": "Input_IsLeftPressed_Repeat",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "JUST_PRESSED (control 166 LEFT, read)"
+    ],
+    [
+     "+",
+     "repeat rate S208"
+    ],
+    [
+     "+",
+     "hold tick 279"
+    ]
+   ]
+  },
+  "Label_1181": {
+   "new": "Input_IsRightPressed_Repeat",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "JUST_PRESSED (control 167 RIGHT, read)"
+    ],
+    [
+     "+",
+     "repeat rate S208"
+    ],
+    [
+     "+",
+     "hold tick 279"
+    ]
+   ]
+  },
+  "Label_119": {
+   "new": "World_ClearAreaAroundPlayer",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "CLEAR_AREA* natives"
+    ]
+   ]
+  },
+  "Label_1239": {
+   "new": "Teleport_EntityToCoords",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "SET_ENTITY_COORDS"
+    ],
+    [
+     "+",
+     "entity via 1166"
+    ],
+    [
+     "+",
+     "3 params (x,y,z)"
+    ]
+   ]
+  },
+  "Label_1240": {
+   "new": "UI_Notify_Punisher",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "PUNISHER texture/title strings"
+    ]
+   ]
+  },
+  "Label_1241": {
+   "new": "Util_PassThrough",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "F1 no-op identity shim"
+    ]
+   ]
+  },
+  "Label_1283": {
+   "new": "UI_Draw_FloatRow_WithHighlight",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "10 params"
+    ],
+    [
+     "+",
+     "float row via 456"
+    ],
+    [
+     "+",
+     "highlight via 418"
+    ]
+   ]
+  },
+  "Label_1319": {
+   "new": "UI_PrintTimedText",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "BEGIN_PRINT"
+    ],
+    [
+     "+",
+     "END_PRINT"
+    ],
+    [
+     "+",
+     "2 params (text,frames)"
+    ]
+   ]
+  },
+  "Label_1361": {
+   "new": "Vehicle_PickSuper",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "11 model cases"
+    ],
+    [
+     "+",
+     "switch subject S1[[106]]"
+    ]
+   ]
+  },
+  "Label_1362": {
+   "new": "Vehicle_PickSports",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "21 model cases"
+    ],
+    [
+     "+",
+     "switch subject S1[[107]]"
+    ]
+   ]
+  },
+  "Label_1363": {
+   "new": "Vehicle_PickSportsClassics",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "16 model cases"
+    ],
+    [
+     "+",
+     "switch subject S1[[108]]"
+    ]
+   ]
+  },
+  "Label_1364": {
+   "new": "Vehicle_PickCoupes",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "13 model cases"
+    ],
+    [
+     "+",
+     "switch subject S1[[109]]"
+    ]
+   ]
+  },
+  "Label_1365": {
+   "new": "Vehicle_PickMuscle",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "18 model cases"
+    ],
+    [
+     "+",
+     "switch subject S1[[110]]"
+    ]
+   ]
+  },
+  "Label_1366": {
+   "new": "Vehicle_PickCompacts",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "7 model cases"
+    ],
+    [
+     "+",
+     "switch subject S1[[111]]"
+    ]
+   ]
+  },
+  "Label_1367": {
+   "new": "Vehicle_PickSedans",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "23 model cases"
+    ],
+    [
+     "+",
+     "switch subject S1[[112]]"
+    ]
+   ]
+  },
+  "Label_1368": {
+   "new": "Vehicle_PickSUVs",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "20 model cases"
+    ],
+    [
+     "+",
+     "switch subject S1[[113]]"
+    ]
+   ]
+  },
+  "Label_1369": {
+   "new": "Vehicle_PickOffRoad",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "16 model cases"
+    ],
+    [
+     "+",
+     "switch subject S1[[114]]"
+    ]
+   ]
+  },
+  "Label_1370": {
+   "new": "Vehicle_PickMotorcycles",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "22 model cases"
+    ],
+    [
+     "+",
+     "switch subject S1[[115]]"
+    ]
+   ]
+  },
+  "Label_1371": {
+   "new": "Vehicle_PickBicycles",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "7 model cases"
+    ],
+    [
+     "+",
+     "switch subject S1[[116]]"
+    ]
+   ]
+  },
+  "Label_1372": {
+   "new": "Vehicle_PickEmergency",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "18 model cases"
+    ],
+    [
+     "+",
+     "switch subject S1[[117]]"
+    ]
+   ]
+  },
+  "Label_1373": {
+   "new": "Vehicle_PickService",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "8 model cases"
+    ],
+    [
+     "+",
+     "switch subject S1[[118]]"
+    ]
+   ]
+  },
+  "Label_1374": {
+   "new": "Vehicle_PickUtility",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "18 model cases"
+    ],
+    [
+     "+",
+     "switch subject S1[[119]]"
+    ]
+   ]
+  },
+  "Label_1375": {
+   "new": "Vehicle_PickIndustrial",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "11 model cases"
+    ],
+    [
+     "+",
+     "switch subject S1[[120]]"
+    ]
+   ]
+  },
+  "Label_1376": {
+   "new": "Vehicle_PickMilitary",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "5 model cases"
+    ],
+    [
+     "+",
+     "switch subject S1[[121]]"
+    ]
+   ]
+  },
+  "Label_1377": {
+   "new": "Vehicle_PickPlanes",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "18 model cases"
+    ],
+    [
+     "+",
+     "switch subject S1[[122]]"
+    ]
+   ]
+  },
+  "Label_1378": {
+   "new": "Vehicle_PickHelicopters",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "15 model cases"
+    ],
+    [
+     "+",
+     "switch subject S1[[123]]"
+    ]
+   ]
+  },
+  "Label_1379": {
+   "new": "Vehicle_PickBoats",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "13 model cases"
+    ],
+    [
+     "+",
+     "switch subject S1[[124]]"
+    ]
+   ]
+  },
+  "Label_1380": {
+   "new": "Vehicle_PickVans",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "29 model cases"
+    ],
+    [
+     "+",
+     "switch subject S1[[125]]"
+    ]
+   ]
+  },
+  "Label_1381": {
+   "new": "Vehicle_PickCommercial",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "10 model cases"
+    ],
+    [
+     "+",
+     "switch subject S1[[126]]"
+    ]
+   ]
+  },
+  "Label_1382": {
+   "new": "Vehicle_PickTrailers",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "17 model cases"
+    ],
+    [
+     "+",
+     "switch subject S1[[127]]"
+    ]
+   ]
+  },
+  "Label_145": {
+   "new": "Entity_TakeControlClosestObject",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "entity natives"
+    ]
+   ]
+  },
+  "Label_1509": {
+   "new": "Vehicle_Spawn_ByHash",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "vehicle natives"
+    ]
+   ]
+  },
+  "Label_163": {
+   "new": "Util_LangPick_ES_EN",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "reads language flag S2[357]"
+    ],
+    [
+     "+",
+     "2 params (ES,EN)"
+    ]
+   ]
+  },
+  "Label_164": {
+   "new": "Help_AddButtonSlot",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "scaleform/help-bar or slot activity"
+    ]
+   ]
+  },
+  "Label_167": {
+   "new": "Help_RenderBar",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "scaleform/help-bar or slot activity"
+    ]
+   ]
+  },
+  "Label_169": {
+   "new": "Net_PlayerStatusList",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "in-progress gate"
+    ],
+    [
+     "+",
+     "rows via 255"
+    ],
+    [
+     "+",
+     "Y cursor S171"
+    ]
+   ]
+  },
+  "Label_171": {
+   "new": "Net_PlayerVoiceList",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "in-progress gate"
+    ],
+    [
+     "+",
+     "rows via 267"
+    ],
+    [
+     "+",
+     "Y cursor S171"
+    ]
+   ]
+  },
+  "Label_173": {
+   "new": "Stat_ForceIntValue",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "STAT_* natives"
+    ]
+   ]
+  },
+  "Label_1835": {
+   "new": "Loader_AddMenuEntry",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "87 call sites (~87 menus)"
+    ],
+    [
+     "+",
+     "checks DOES_SCRIPT_EXIST"
+    ],
+    [
+     "+",
+     "writes queue S1[134]+S1[136]"
+    ],
+    [
+     "+",
+     "Function has 6 params"
+    ]
+   ]
+  },
+  "Label_1844": {
+   "new": "Stat_GetMPPrefix",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "mp0_..mp4_/error table"
+    ],
+    [
+     "+",
+     "switch on MP slot"
+    ],
+    [
+     "+",
+     "0 params"
+    ]
+   ]
+  },
+  "Label_1845": {
+   "new": "Util_ConcatToFrame",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "copy+append to frame buf"
+    ],
+    [
+     "+",
+     "2 params"
+    ]
+   ]
+  },
+  "Label_1846": {
+   "new": "World_ClearAreaRowText",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "choice S2[370]"
+    ],
+    [
+     "+",
+     "shows [N/6]"
+    ],
+    [
+     "+",
+     "0 params (returns text)"
+    ]
+   ]
+  },
+  "Label_1847": {
+   "new": "UI_Draw_ValueRow_WithHighlight",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "5 params"
+    ],
+    [
+     "+",
+     "value row via 501"
+    ],
+    [
+     "+",
+     "highlight via 418"
+    ]
+   ]
+  },
+  "Label_1915": {
+   "new": "Outfit_ApplyFullSet",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "30 params (3 props + 12 comps)"
+    ],
+    [
+     "+",
+     "props + components"
+    ],
+    [
+     "+",
+     "target via Outfit_GetTargetPed"
+    ]
+   ]
+  },
+  "Label_1916": {
+   "new": "UI_Notify_Outfit",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "outfit notify strings"
+    ],
+    [
+     "+",
+     "notify native"
+    ]
+   ]
+  },
+  "Label_1940": {
+   "new": "CustomScript_MenuEntry",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "custom-script strings or S132 counter"
+    ]
+   ]
+  },
+  "Label_1942": {
+   "new": "CustomScript_AddEntry",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "keyboard in + store"
+    ],
+    [
+     "+",
+     "count up + select next"
+    ]
+   ]
+  },
+  "Label_1964": {
+   "new": "Anim_NameTable",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "86 name strings (28 anims)"
+    ]
+   ]
+  },
+  "Label_1966": {
+   "new": "Anim_MapRowIndex",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "reads submenu flag S2[391]"
+    ],
+    [
+     "+",
+     "takes row idx, returns mapped idx (0->1 when set)"
+    ]
+   ]
+  },
+  "Label_198": {
+   "new": "Weapon_GiveDelayedToPlayer",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "GIVE_DELAYED_WEAPON_TO_PED"
+    ],
+    [
+     "+",
+     "to player ped"
+    ],
+    [
+     "+",
+     "1 param (hash)"
+    ]
+   ]
+  },
+  "Label_1988": {
+   "new": "Array_EntityExists",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "entity via Array_GetIndexed_408"
+    ],
+    [
+     "+",
+     "existence check"
+    ],
+    [
+     "+",
+     "0 params"
+    ]
+   ]
+  },
+  "Label_1989": {
+   "new": "Array_GetIndexed_408",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "index from S2[407]"
+    ]
+   ]
+  },
+  "Label_199": {
+   "new": "Cam_GetPointAhead",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "cam rot+coord"
+    ],
+    [
+     "+",
+     "trig projection"
+    ],
+    [
+     "+",
+     "1 param (distance)"
+    ]
+   ]
+  },
+  "Label_2": {
+   "new": "Util_GetSafeZoneHalf",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "GET_SAFE_ZONE_SIZE"
+    ]
+   ]
+  },
+  "Label_2084": {
+   "new": "Outfit_GetTargetPed",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "override S2[400]"
+    ],
+    [
+     "+",
+     "else player ped"
+    ],
+    [
+     "+",
+     "0 params"
+    ]
+   ]
+  },
+  "Label_219": {
+   "new": "Weapon_GiveToPlayer",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "GIVE_WEAPON_TO_PED"
+    ],
+    [
+     "+",
+     "to player ped"
+    ],
+    [
+     "+",
+     "1 param (hash)"
+    ]
+   ]
+  },
+  "Label_220": {
+   "new": "Entity_GetVehicleOrPed_Tick",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "in-vehicle check"
+    ],
+    [
+     "+",
+     "vehicle else ped"
+    ],
+    [
+     "+",
+     "0 params"
+    ]
+   ]
+  },
+  "Label_227": {
+   "new": "Cheat_ForcePushAimed",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "aimed entity"
+    ],
+    [
+     "+",
+     "upward force"
+    ],
+    [
+     "+",
+     "driven by Tick_ApplyToggleEffects"
+    ]
+   ]
+  },
+  "Label_2276": {
+   "new": "Settings_PositionNameTable",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "Left/Centre/Right table"
+    ],
+    [
+     "+",
+     "0 params (reads S63 directly)"
+    ]
+   ]
+  },
+  "Label_2277": {
+   "new": "Util_DropOne",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "no natives/calls (pure stack op)"
+    ],
+    [
+     "+",
+     "1 param in, 0 out"
+    ]
+   ]
+  },
+  "Label_2278": {
+   "new": "Input_ApplyBackKey1",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "switch on choice S2[371]"
+    ],
+    [
+     "+",
+     "writes back key S1[204]"
+    ]
+   ]
+  },
+  "Label_2279": {
+   "new": "UI_Draw_CycleRowEx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "15 params (title,5 sprite vals,addr,8 nums)"
+    ],
+    [
+     "+",
+     "row 319 + sprite 512"
+    ]
+   ]
+  },
+  "Label_2280": {
+   "new": "Input_ApplyBackKey2",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "switch on choice S2[372]"
+    ],
+    [
+     "+",
+     "writes back key S1[205]"
+    ]
+   ]
+  },
+  "Label_2281": {
+   "new": "Settings_RowsNameTable",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "9..15 table"
+    ],
+    [
+     "+",
+     "indexed by S2[373]"
+    ],
+    [
+     "+",
+     "0 params"
+    ]
+   ]
+  },
+  "Label_2282": {
+   "new": "Settings_RowsPerPage",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "reads choice S2[373]"
+    ],
+    [
+     "+",
+     "writes rows S1[223]"
+    ]
+   ]
+  },
+  "Label_2314": {
+   "new": "UI_Draw_BackgroundChoiceRow",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "reads choice S2[364]"
+    ],
+    [
+     "+",
+     "shows [N/4]"
+    ]
+   ]
+  },
+  "Label_2315": {
+   "new": "UI_Draw_CycleRow_WithHighlight",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "9 params"
+    ],
+    [
+     "+",
+     "cycle row via 497"
+    ],
+    [
+     "+",
+     "highlight bar via 418"
+    ]
+   ]
+  },
+  "Label_2317": {
+   "new": "UI_Draw_OverlayChoiceRow",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "reads choice S2[365]"
+    ]
+   ]
+  },
+  "Label_2324": {
+   "new": "HudColor_IdTable",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "indexed by S2[401]"
+    ],
+    [
+     "+",
+     "0 params (returns color id)"
+    ]
+   ]
+  },
+  "Label_2325": {
+   "new": "HudColor_FetchRGBA",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "GET_HUD_COLOUR"
+    ],
+    [
+     "+",
+     "id via HudColor_IdTable"
+    ]
+   ]
+  },
+  "Label_2326": {
+   "new": "HudColor_DrawPreview",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "preview caption"
+    ],
+    [
+     "+",
+     "swatch rects"
+    ],
+    [
+     "+",
+     "color S2[402..405]"
+    ]
+   ]
+  },
+  "Label_2327": {
+   "new": "HudColor_NameTable",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "color names"
+    ],
+    [
+     "+",
+     "0 params (returns name)"
+    ]
+   ]
+  },
+  "Label_2342": {
+   "new": "HudColor_SetFromTable",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "id via HudColor_IdTable"
+    ],
+    [
+     "+",
+     "RGBA S2[402..405]"
+    ],
+    [
+     "+",
+     "UNK set-colour native (5 args: id+RGBA)"
+    ]
+   ]
+  },
+  "Label_2357": {
+   "new": "HudColor_ApplyPreset",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "preset switch on S2[401]"
+    ],
+    [
+     "+",
+     "RGBA presets S2[402..405]"
+    ],
+    [
+     "+",
+     "applies via HudColor_SetFromTable"
+    ]
+   ]
+  },
+  "Label_2381": {
+   "new": "Sprite_TypeRowDisplay",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "type index S102"
+    ],
+    [
+     "+",
+     "shows [N/10]"
+    ],
+    [
+     "+",
+     "0 params (returns text)"
+    ]
+   ]
+  },
+  "Label_2382": {
+   "new": "UI_Draw_SpriteToggleRow",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "14 params"
+    ],
+    [
+     "+",
+     "cycle row via 319"
+    ],
+    [
+     "+",
+     "header sprite via 320"
+    ]
+   ]
+  },
+  "Label_2386": {
+   "new": "Theme_ApplyHeaderPreset",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "writes header colors S234..240"
+    ]
+   ]
+  },
+  "Label_2396": {
+   "new": "Help_DrawCustomKeys__Done",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_458 (Help_DrawCustomKeys)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_2397": {
+   "new": "Help_DrawCustomKeys__ChangeTextValues",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_458 (Help_DrawCustomKeys)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_2398": {
+   "new": "Help_DrawCustomKeys__AfterChangeValues",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_458 (Help_DrawCustomKeys)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_2399": {
+   "new": "Help_DrawCustomKeys__NoExtraConfirm",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_458 (Help_DrawCustomKeys)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_2400": {
+   "new": "Help_DrawCustomKeys__ExitInstead",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_458 (Help_DrawCustomKeys)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_2401": {
+   "new": "Help_DrawCustomKeys__Render",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_458 (Help_DrawCustomKeys)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_2414": {
+   "new": "Util_WaitForModel",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "request+loaded loop"
+    ],
+    [
+     "+",
+     "ticks Main_Tick while waiting"
+    ]
+   ]
+  },
+  "Label_2435": {
+   "new": "Vehicle_ApplyPerfPack",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "perf mods + turbo"
+    ],
+    [
+     "+",
+     "bulletproof tyres"
+    ],
+    [
+     "+",
+     "gate S96"
+    ],
+    [
+     "+",
+     "1 param (vehicle)"
+    ]
+   ]
+  },
+  "Label_2436": {
+   "new": "Vehicle_MaxAllVisualMods",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "all visual mods to max"
+    ],
+    [
+     "+",
+     "window tint"
+    ],
+    [
+     "+",
+     "gate S97"
+    ]
+   ]
+  },
+  "Label_2437": {
+   "new": "Vehicle_ApplyPaintJob",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "paint + custom colors"
+    ],
+    [
+     "+",
+     "random RGB via 2449"
+    ],
+    [
+     "+",
+     "gate S98"
+    ]
+   ]
+  },
+  "Label_2438": {
+   "new": "Vehicle_ApplyRadioFlag",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "radio enable native"
+    ],
+    [
+     "+",
+     "gate S2[378]"
+    ],
+    [
+     "+",
+     "1 param (vehicle)"
+    ]
+   ]
+  },
+  "Label_2439": {
+   "new": "Vehicle_ApplyPlateText",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "sets plate text"
+    ]
+   ]
+  },
+  "Label_2442": {
+   "new": "Vehicle_ApplyGodmodeFlag",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "invincible + proofs"
+    ],
+    [
+     "+",
+     "gate S2[379]"
+    ],
+    [
+     "+",
+     "release-old via 2452"
+    ]
+   ]
+  },
+  "Label_2449": {
+   "new": "Util_RandomByte",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "random 0..255"
+    ],
+    [
+     "+",
+     "0 params"
+    ]
+   ]
+  },
+  "Label_2452": {
+   "new": "Vehicle_ReleaseUnlessKept",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "release entity"
+    ],
+    [
+     "+",
+     "keep-flag S99"
+    ],
+    [
+     "+",
+     "1 param (vehicle)"
+    ]
+   ]
+  },
+  "Label_2455": {
+   "new": "Util_EnsureTextureDict",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "HAS_STREAMED_TEXTURE_DICT_LOADED"
+    ]
+   ]
+  },
+  "Label_251": {
+   "new": "Stat_ForceIntValue__Done",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_173 (Stat_ForceIntValue)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_255": {
+   "new": "Net_PlayerStatusRow",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "active gate"
+    ],
+    [
+     "+",
+     "style 260 + name 262"
+    ],
+    [
+     "+",
+     "1 param (player)"
+    ]
+   ]
+  },
+  "Label_260": {
+   "new": "UI_SetSmallTextStyle",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "font+scale"
+    ],
+    [
+     "+",
+     "font id S82"
+    ],
+    [
+     "+",
+     "color"
+    ]
+   ]
+  },
+  "Label_262": {
+   "new": "Net_GetPlayerNameOrDash",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "GET_PLAYER_NAME"
+    ],
+    [
+     "+",
+     "active gate"
+    ],
+    [
+     "+",
+     "1 param (player)"
+    ]
+   ]
+  },
+  "Label_263": {
+   "new": "Util_ConcatStrings_ToBuffer",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "string ops"
+    ]
+   ]
+  },
+  "Label_264": {
+   "new": "Net_ResolveStatusRowX",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "menu X geometry S0/S2"
+    ],
+    [
+     "+",
+     "0 params (returns X)"
+    ]
+   ]
+  },
+  "Label_267": {
+   "new": "Net_PlayerVoiceRow",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "talking check"
+    ],
+    [
+     "+",
+     "style via 260"
+    ],
+    [
+     "+",
+     "1 param (player)"
+    ]
+   ]
+  },
+  "Label_272": {
+   "new": "Net_ResolveVoiceRowX",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "menu X geometry S0/S2"
+    ],
+    [
+     "+",
+     "0 params (returns X)"
+    ]
+   ]
+  },
+  "Label_274": {
+   "new": "Input_HandleScrollNav__Done",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_111 (Input_HandleScrollNav)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_275": {
+   "new": "Menu_HandleBack",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "reads back keys S204/205"
+    ],
+    [
+     "+",
+     "resets page S130"
+    ],
+    [
+     "+",
+     "frees scaleforms"
+    ]
+   ]
+  },
+  "Label_279": {
+   "new": "Input_HoldTick",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "ticks hold counter S173 (R+W)"
+    ]
+   ]
+  },
+  "Label_283": {
+   "new": "Sfx_PlayPhoneSound",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "PLAY_SOUND_FRONTEND native present"
+    ]
+   ]
+  },
+  "Label_285": {
+   "new": "Sfx_Play_MiniGame",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "PLAY_SOUND_FRONTEND native present"
+    ]
+   ]
+  },
+  "Label_291": {
+   "new": "Splash_ApplyRandomTheme",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "random preset pick"
+    ],
+    [
+     "+",
+     "gate S77"
+    ],
+    [
+     "+",
+     "called by splash 58"
+    ]
+   ]
+  },
+  "Label_295": {
+   "new": "Menu_HandleBack__CheckAltKey",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_275 (Menu_HandleBack)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_296": {
+   "new": "Menu_HandleBack__Done",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_275 (Menu_HandleBack)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_297": {
+   "new": "Menu_HandleBack__DoBack",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_275 (Menu_HandleBack)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_298": {
+   "new": "Sfx_Play_FrontendDefault",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "PLAY_SOUND_FRONTEND native present"
+    ]
+   ]
+  },
+  "Label_299": {
+   "new": "Menu_HandleBack__FreeMovie2",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_275 (Menu_HandleBack)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_3": {
+   "new": "Main_Tick",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "has WAIT(0)"
+    ],
+    [
+     "+",
+     "reads S1[130] page id"
+    ],
+    [
+     "+",
+     "switch has 48 page cases"
+    ],
+    [
+     "+",
+     "calls Tick Label_5 + Label_6"
+    ]
+   ]
+  },
+  "Label_300": {
+   "new": "Menu_HandleBack__FreeMovie3",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_275 (Menu_HandleBack)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_301": {
+   "new": "Menu_HandleBack__FreeMovie4",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_275 (Menu_HandleBack)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_314": {
+   "new": "UI_SetTextFormat",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "SET_TEXT_FONT"
+    ],
+    [
+     "+",
+     "SET_TEXT_SCALE"
+    ],
+    [
+     "+",
+     "SET_TEXT_COLOUR"
+    ],
+    [
+     "+",
+     "5 format params"
+    ]
+   ]
+  },
+  "Label_319": {
+   "new": "UI_RenderCycleRow",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "14 params"
+    ],
+    [
+     "+",
+     "396+458+491+462+486+500"
+    ]
+   ]
+  },
+  "Label_320": {
+   "new": "UI_Draw_HeaderSprite",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "draws via 327"
+    ],
+    [
+     "+",
+     "reads header colors"
+    ]
+   ]
+  },
+  "Label_324": {
+   "new": "UI_ResolveHeaderSpriteSize",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "sizes S237/S226"
+    ],
+    [
+     "+",
+     "selection-aware"
+    ],
+    [
+     "+",
+     "called by header sprite 320"
+    ]
+   ]
+  },
+  "Label_326": {
+   "new": "UI_MeasureTextWidth",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "width-measure native"
+    ],
+    [
+     "+",
+     "colors via 331"
+    ],
+    [
+     "+",
+     "1 param (text)"
+    ]
+   ]
+  },
+  "Label_327": {
+   "new": "UI_DrawStreamedSprite",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "DRAW_SPRITE"
+    ],
+    [
+     "+",
+     "dict ensure logic"
+    ]
+   ]
+  },
+  "Label_331": {
+   "new": "UI_GetRowTextRGB",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "reads selected RGB S241..243"
+    ],
+    [
+     "+",
+     "reads unselected RGB S2[268..270]"
+    ],
+    [
+     "+",
+     "compares sel S197 vs counter S214"
+    ]
+   ]
+  },
+  "Label_335": {
+   "new": "UI_ResolveExRowSpriteX",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "selection compare S197/S214"
+    ],
+    [
+     "+",
+     "0 params (returns X offset)"
+    ]
+   ]
+  },
+  "Label_344": {
+   "new": "UI_ApplyOverlayTexture",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "switch subject S2[365]"
+    ],
+    [
+     "+",
+     "writes overlay tex S1[253]"
+    ],
+    [
+     "+",
+     "chaos_textures_* strings"
+    ]
+   ]
+  },
+  "Label_345": {
+   "new": "UI_ApplyBackgroundTexture",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "switch subject S2[364]"
+    ],
+    [
+     "+",
+     "writes background tex S1[252]"
+    ],
+    [
+     "+",
+     "TPBackground* strings"
+    ]
+   ]
+  },
+  "Label_346": {
+   "new": "UI_ApplyMenuPosition",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "switch subject S1[63]"
+    ],
+    [
+     "+",
+     "writes geometry S1[0..2]"
+    ]
+   ]
+  },
+  "Label_352": {
+   "new": "UI_DrawAlienRunesOverlay",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "runes overlay movie"
+    ],
+    [
+     "+",
+     "drawn per-frame"
+    ],
+    [
+     "+",
+     "called by 1151"
+    ]
+   ]
+  },
+  "Label_355": {
+   "new": "UI_Draw_ScrollArrows",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "draws via 327"
+    ],
+    [
+     "+",
+     "arrow sprite strings"
+    ]
+   ]
+  },
+  "Label_356": {
+   "new": "UI_SetTextStyleFull",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "font+scale+color"
+    ],
+    [
+     "+",
+     "5 params (font,r,g,b,outline)"
+    ]
+   ]
+  },
+  "Label_358": {
+   "new": "Input_GetSelectedIndex",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "reads S197"
+    ]
+   ]
+  },
+  "Label_361": {
+   "new": "UI_ResolveScrollBarX",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "menu X S2"
+    ],
+    [
+     "+",
+     "0 params (returns side X)"
+    ]
+   ]
+  },
+  "Label_362": {
+   "new": "UI_ResolveScrollArrowX",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "menu X S2"
+    ],
+    [
+     "+",
+     "0 params (returns side X)"
+    ]
+   ]
+  },
+  "Label_363": {
+   "new": "Net_DrawHostRow",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "HOST caption"
+    ],
+    [
+     "+",
+     "value via 367"
+    ],
+    [
+     "+",
+     "per-frame by 1151"
+    ]
+   ]
+  },
+  "Label_364": {
+   "new": "Net_DrawFpsRow",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "FPS caption"
+    ],
+    [
+     "+",
+     "value via 369"
+    ],
+    [
+     "+",
+     "per-frame by 1151"
+    ]
+   ]
+  },
+  "Label_365": {
+   "new": "UI_DrawScrollbar",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "bars via 327"
+    ],
+    [
+     "+",
+     "track Y S2[266]"
+    ],
+    [
+     "+",
+     "per-frame by 1151"
+    ]
+   ]
+  },
+  "Label_367": {
+   "new": "Net_BrokenHostValue",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "active check (result discarded)"
+    ],
+    [
+     "+",
+     "1 param (player); returns constant (author bug, see report)"
+    ]
+   ]
+  },
+  "Label_369": {
+   "new": "Util_ComputeFps",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "frame counting"
+    ],
+    [
+     "+",
+     "fps value S2[261]"
+    ]
+   ]
+  },
+  "Label_370": {
+   "new": "Util_IntToString",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "33 callers (concat helper)"
+    ],
+    [
+     "+",
+     "1 param"
+    ]
+   ]
+  },
+  "Label_377": {
+   "new": "UI_SmoothApproach",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "2 params (current,target)"
+    ],
+    [
+     "+",
+     "pure math"
+    ],
+    [
+     "+",
+     "knob easing via scrollbar 365"
+    ]
+   ]
+  },
+  "Label_389": {
+   "new": "UI_ApplyCentreFlag",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "SET_TEXT_CENTRE"
+    ],
+    [
+     "+",
+     "1 param (flag)"
+    ]
+   ]
+  },
+  "Label_396": {
+   "new": "UI_PrintRow",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "delegates to Label_546 (UI_RenderRow)"
+    ],
+    [
+     "+",
+     "330 callers (row wrapper)"
+    ]
+   ]
+  },
+  "Label_397": {
+   "new": "Input_IsConfirmPressed",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "reads disabled controls"
+    ],
+    [
+     "+",
+     "requires sel==counter (S197==S214)"
+    ],
+    [
+     "+",
+     "plays click sound"
+    ]
+   ]
+  },
+  "Label_399": {
+   "new": "UI_ShowKeyboard",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "DISPLAY_ONSCREEN_KEYBOARD"
+    ]
+   ]
+  },
+  "Label_400": {
+   "new": "CustomScript_StoreKeyboardResult",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "reads keyboard result"
+    ],
+    [
+     "+",
+     "writes name bufs S2[271+8k]"
+    ]
+   ]
+  },
+  "Label_401": {
+   "new": "CustomScript_CountUp",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "increments S132 (cap 10)"
+    ]
+   ]
+  },
+  "Label_402": {
+   "new": "CustomScript_SelectNext",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "advances selection S197"
+    ]
+   ]
+  },
+  "Label_413": {
+   "new": "CustomScript_CountUp__Done",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_401 (CustomScript_CountUp)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_415": {
+   "new": "CustomScript_MenuEntry__Done",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_1940 (CustomScript_MenuEntry)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_416": {
+   "new": "CustomScript_MenuEntry__RemoveEntry",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_1940 (CustomScript_MenuEntry)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_417": {
+   "new": "CustomScript_MenuEntry__AfterRemove",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_1940 (CustomScript_MenuEntry)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_418": {
+   "new": "UI_DrawRowHighlight",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "calls Label_436 highlight bar"
+    ],
+    [
+     "+",
+     "uses row Y S1[224]"
+    ]
+   ]
+  },
+  "Label_420": {
+   "new": "Help_AddButtonSlot__BarReady",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_164 (Help_AddButtonSlot)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_421": {
+   "new": "Help_AddButtonSlot__Draw",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_164 (Help_AddButtonSlot)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_422": {
+   "new": "Help_AddButtonSlot__SkipUnloaded",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_164 (Help_AddButtonSlot)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_423": {
+   "new": "Loader_AddMenuEntry__Exists",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_1835 (Loader_AddMenuEntry)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_424": {
+   "new": "Loader_AddMenuEntry__NonPS3Suffix",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_1835 (Loader_AddMenuEntry)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_425": {
+   "new": "Loader_AddMenuEntry__SuffixDone",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_1835 (Loader_AddMenuEntry)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_426": {
+   "new": "Loader_AddMenuEntry__Return",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_1835 (Loader_AddMenuEntry)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_427": {
+   "new": "UI_DrawRowIcons",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "draws sprites (direct or via 327)"
+    ],
+    [
+     "+",
+     "builds button name via Label_450"
+    ]
+   ]
+  },
+  "Label_428": {
+   "new": "Loader_AddMenuEntry__QueueLoad",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_1835 (Loader_AddMenuEntry)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_429": {
+   "new": "Sfx_Play_FrontendDefault__Muted",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_298 (Sfx_Play_FrontendDefault)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_431": {
+   "new": "Sfx_PlayPhoneSound__Muted",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_283 (Sfx_PlayPhoneSound)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_432": {
+   "new": "Input_IsConfirmPressed__ReturnNo",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_397 (Input_IsConfirmPressed)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_433": {
+   "new": "UI_DrawRowHighlight__ShortPage",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_418 (UI_DrawRowHighlight)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_434": {
+   "new": "UI_DrawRowHighlight__Skip",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_418 (UI_DrawRowHighlight)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_435": {
+   "new": "UI_DrawRowHighlight__ComputeY",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_418 (UI_DrawRowHighlight)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_436": {
+   "new": "UI_DrawHighlightBar",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "draws via UI_DrawStreamedSprite (327)"
+    ],
+    [
+     "+",
+     "reads tex dict S2[353]"
+    ]
+   ]
+  },
+  "Label_437": {
+   "new": "UI_DrawHighlightBar__EnabledBranch",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_436 (UI_DrawHighlightBar)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_438": {
+   "new": "UI_DrawHighlightBar__DrawSelected",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_436 (UI_DrawHighlightBar)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_439": {
+   "new": "UI_Get_SelectionColor",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "returns S238..240 triple (true)"
+    ],
+    [
+     "+",
+     "returns S234..236 triple (false)"
+    ]
+   ]
+  },
+  "Label_440": {
+   "new": "UI_DrawHighlightBar__DrawUnselected",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_436 (UI_DrawHighlightBar)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_441": {
+   "new": "Util_LangPick_ES_EN__English",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_163 (Util_LangPick_ES_EN)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_442": {
+   "new": "Util_LangPick_ES_EN__Done",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_163 (Util_LangPick_ES_EN)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_446": {
+   "new": "UI_DrawRowIcons__ShortPage",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_427 (UI_DrawRowIcons)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_447": {
+   "new": "UI_DrawRowIcons__Done",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_427 (UI_DrawRowIcons)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_448": {
+   "new": "UI_DrawRowIcons__ComputeY",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_427 (UI_DrawRowIcons)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_449": {
+   "new": "UI_DrawRowIcons__NoIconA",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_427 (UI_DrawRowIcons)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_450": {
+   "new": "Util_BuildButtonSpriteName",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "contains \"button_\" prefix"
+    ],
+    [
+     "+",
+     "takes id param"
+    ]
+   ]
+  },
+  "Label_451": {
+   "new": "Util_EnsureTextureDict__AlreadyLoaded",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_2455 (Util_EnsureTextureDict)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_452": {
+   "new": "UI_DrawStreamedSprite__AlreadyLoaded",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_327 (UI_DrawStreamedSprite)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_453": {
+   "new": "UI_PrintRowEx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "delegates to UI_RenderRow"
+    ],
+    [
+     "+",
+     "2 params"
+    ]
+   ]
+  },
+  "Label_454": {
+   "new": "UI_Handle_MenuSelect__NotPressed",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_1163 (UI_Handle_MenuSelect)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_455": {
+   "new": "Menu_PushPage",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "1 params (page id)"
+    ],
+    [
+     "+",
+     "reads depth S174"
+    ],
+    [
+     "+",
+     "page-stack write"
+    ]
+   ]
+  },
+  "Label_456": {
+   "new": "UI_RenderFloatCycleRow",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "draw natives / UI-core delegation / UI statics"
+    ]
+   ]
+  },
+  "Label_458": {
+   "new": "Help_DrawCustomKeys",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "scaleform/help-bar or slot activity"
+    ]
+   ]
+  },
+  "Label_460": {
+   "new": "UI_ResolveArrowX",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "1 param (flag/value)"
+    ],
+    [
+     "+",
+     "pure math (no natives)"
+    ],
+    [
+     "+",
+     "4 arrow-renderer callers"
+    ]
+   ]
+  },
+  "Label_461": {
+   "new": "UI_ResolveArrowSize",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "1 param (flag/value)"
+    ],
+    [
+     "+",
+     "pure math (no natives)"
+    ],
+    [
+     "+",
+     "4 arrow-renderer callers"
+    ]
+   ]
+  },
+  "Label_462": {
+   "new": "Input_SetCycleDelay",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "writes cycle delay S207"
+    ]
+   ]
+  },
+  "Label_463": {
+   "new": "Input_CycleFloatPtrValue",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "float cycler via pGet+pSet"
+    ],
+    [
+     "+",
+     "buttons via 466"
+    ],
+    [
+     "+",
+     "5 params (gate,addr,min,max,step)"
+    ]
+   ]
+  },
+  "Label_464": {
+   "new": "UI_Draw_FloatValueText",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "float component"
+    ],
+    [
+     "+",
+     "wrap via 482"
+    ],
+    [
+     "+",
+     "3 params (style,value,decimals)"
+    ]
+   ]
+  },
+  "Label_466": {
+   "new": "Input_IsCyclePressed",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "reads delay S207"
+    ],
+    [
+     "+",
+     "hold counter S173 or tick-call"
+    ]
+   ]
+  },
+  "Label_475": {
+   "new": "Dead_ArrowRow_Unreached",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "dead/unreached: 1 caller(s), all dead"
+    ],
+    [
+     "+",
+     "has body (documented, not claimed-live)"
+    ]
+   ]
+  },
+  "Label_481": {
+   "new": "UI_ApplySelectedRowFont",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "SET_TEXT_FONT"
+    ],
+    [
+     "+",
+     "reads font id S1[83]"
+    ],
+    [
+     "+",
+     "gated by selection S197"
+    ]
+   ]
+  },
+  "Label_482": {
+   "new": "UI_SetValueTextWrap",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "SET_TEXT_WRAP"
+    ],
+    [
+     "+",
+     "selection-aware"
+    ],
+    [
+     "+",
+     "1 param (flag)"
+    ]
+   ]
+  },
+  "Label_483": {
+   "new": "UI_Draw_SettingRow",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "renders via UI_PrintRow"
+    ],
+    [
+     "+",
+     "custom help keys"
+    ],
+    [
+     "+",
+     "9 params (generic row)"
+    ]
+   ]
+  },
+  "Label_486": {
+   "new": "Input_CyclePtrValue",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "generic cycler via pGet+pSet"
+    ],
+    [
+     "+",
+     "button check via Input_IsCyclePressed"
+    ]
+   ]
+  },
+  "Label_487": {
+   "new": "UI_Draw_IntValueText",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "int component"
+    ],
+    [
+     "+",
+     "wrap via 482"
+    ],
+    [
+     "+",
+     "3 params"
+    ]
+   ]
+  },
+  "Label_488": {
+   "new": "UI_RenderIntValueRow",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "6 params"
+    ],
+    [
+     "+",
+     "396+491+487, display-only"
+    ],
+    [
+     "+",
+     "no cycler (static value)"
+    ]
+   ]
+  },
+  "Label_491": {
+   "new": "UI_Draw_CycleArrows",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "left/right arrow sprites"
+    ]
+   ]
+  },
+  "Label_497": {
+   "new": "UI_Draw_CycleRow",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "11 params (title,word,8 nums \u2014 addr dropped upstream)"
+    ],
+    [
+     "+",
+     "forwards to row renderer 319"
+    ]
+   ]
+  },
+  "Label_5": {
+   "new": "Tick_InputQueueAndToggles",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "called from Main_Tick (Label_3)"
+    ],
+    [
+     "+",
+     "76 natives (per-frame work)"
+    ]
+   ]
+  },
+  "Label_500": {
+   "new": "UI_Draw_RowValueText",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "3 params (style,value,flag)"
+    ],
+    [
+     "+",
+     "renders via row/text path"
+    ]
+   ]
+  },
+  "Label_501": {
+   "new": "UI_RenderValueRow",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "8 params"
+    ],
+    [
+     "+",
+     "396+491+500, display-only"
+    ],
+    [
+     "+",
+     "no cycler (static value)"
+    ]
+   ]
+  },
+  "Label_512": {
+   "new": "UI_Draw_ExRowSpriteValue",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "5 params"
+    ],
+    [
+     "+",
+     "draws via 327"
+    ],
+    [
+     "+",
+     "arrow sprites"
+    ]
+   ]
+  },
+  "Label_516": {
+   "new": "UI_MeasureValueWidth",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "typed format via 517/518"
+    ],
+    [
+     "+",
+     "width native"
+    ],
+    [
+     "+",
+     "3 params"
+    ]
+   ]
+  },
+  "Label_517": {
+   "new": "UI_PickTextFormatCmd",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "NUMBER/STRING picker"
+    ],
+    [
+     "+",
+     "1 param (is_number)"
+    ]
+   ]
+  },
+  "Label_518": {
+   "new": "UI_AddTextComponentTyped",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "int/str adders"
+    ],
+    [
+     "+",
+     "2 params (value,is_int)"
+    ]
+   ]
+  },
+  "Label_546": {
+   "new": "UI_RenderRow",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "has text-command natives"
+    ],
+    [
+     "+",
+     "touches row counter S1[214]"
+    ],
+    [
+     "+",
+     "computes text Y S2[358]"
+    ]
+   ]
+  },
+  "Label_547": {
+   "new": "UI_RenderRow__ShortPage",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_546 (UI_RenderRow)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_548": {
+   "new": "UI_RenderRow__Skip",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_546 (UI_RenderRow)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_549": {
+   "new": "UI_RenderRow__ComputeY",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_546 (UI_RenderRow)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_550": {
+   "new": "UI_RenderRow__AfterIndent",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_546 (UI_RenderRow)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_551": {
+   "new": "UI_SetRowTextXIndent",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "writes text X S2[362]"
+    ],
+    [
+     "+",
+     "based on menu X S1[0]"
+    ]
+   ]
+  },
+  "Label_552": {
+   "new": "UI_ResolveRowTextX",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "draw natives / UI-core delegation / UI statics"
+    ]
+   ]
+  },
+  "Label_553": {
+   "new": "UI_RenderRow__Bar2",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_546 (UI_RenderRow)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_554": {
+   "new": "UI_DrawRowMarkers",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "arrow + mission icons"
+    ],
+    [
+     "+",
+     "1 param"
+    ]
+   ]
+  },
+  "Label_555": {
+   "new": "UI_ResolveRowTextX__PassThrough",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_552 (UI_ResolveRowTextX)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_556": {
+   "new": "UI_ResolveRowTextX__UseMenuLeft",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_552 (UI_ResolveRowTextX)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_557": {
+   "new": "UI_ResolveRowTextX__Done",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_552 (UI_ResolveRowTextX)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_561": {
+   "new": "UI_ResolveIconX",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "gated by icon-align flag S67"
+    ],
+    [
+     "+",
+     "resolves between menu L/R X"
+    ]
+   ]
+  },
+  "Label_565": {
+   "new": "UI_GetRowTextRGB__Selected",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_331 (UI_GetRowTextRGB)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_566": {
+   "new": "UI_ApplySelectedRowFont__Selected",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_481 (UI_ApplySelectedRowFont)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_567": {
+   "new": "UI_ApplySelectedRowFont__Done",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_481 (UI_ApplySelectedRowFont)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_568": {
+   "new": "UI_SetRowTextXIndent__Selected",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_551 (UI_SetRowTextXIndent)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_569": {
+   "new": "UI_SetRowTextXIndent__Done",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_551 (UI_SetRowTextXIndent)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_58": {
+   "new": "Page_Splash_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "2 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['splash-exempt']"
+    ]
+   ]
+  },
+  "Label_6": {
+   "new": "Tick_ApplyToggleEffects",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "called from Main_Tick (Label_3)"
+    ],
+    [
+     "+",
+     "363 natives (per-frame work)"
+    ]
+   ]
+  },
+  "Label_60": {
+   "new": "Page_Language_Select",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "7 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['lenguaje', 'language']"
+    ]
+   ]
+  },
+  "Label_604": {
+   "new": "Anim_PlaySelectedAnim",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "TASK_PLAY_ANIM"
+    ],
+    [
+     "+",
+     "dict request loop"
+    ],
+    [
+     "+",
+     "dispatched from anim table 1964"
+    ]
+   ]
+  },
+  "Label_62": {
+   "new": "Page_MainMenu_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "21 PushStrings (topic map missing \u2014 manual check)"
+    ]
+   ]
+  },
+  "Label_633": {
+   "new": "Player_ApplyMovementClipset",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "CLIP_SET natives"
+    ],
+    [
+     "+",
+     "SET_PED_MOVEMENT_CLIPSET"
+    ]
+   ]
+  },
+  "Label_64": {
+   "new": "Page_ModsMenus_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "45 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['mods menus', 'app ii', 'inimitable', 'brodator', 'revolution']"
+    ]
+   ]
+  },
+  "Label_65": {
+   "new": "Page_Recovery_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "33 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['recovery', 'james reborn', '2much4u', 'stat editor', 'tattoo']"
+    ]
+   ]
+  },
+  "Label_66": {
+   "new": "Page_Protections_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "36 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['protec']"
+    ]
+   ]
+  },
+  "Label_67": {
+   "new": "Page_Outfits_Router",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "calls: ['Label_1151', 'Label_1154', 'Label_1163', 'Label_1835']"
+    ],
+    [
+     "+",
+     "0 natives (thin wrapper)"
+    ]
+   ]
+  },
+  "Label_68": {
+   "new": "Page_Freezers_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "24 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['freez', 'frz', 'congelaci']"
+    ]
+   ]
+  },
+  "Label_69": {
+   "new": "Page_Vehicles_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "18 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['vehicul', 'erootiik']"
+    ]
+   ]
+  },
+  "Label_690": {
+   "new": "Player_ApplyModel",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "SET_PLAYER_MODEL"
+    ],
+    [
+     "+",
+     "model wait via 2414"
+    ],
+    [
+     "+",
+     "default components"
+    ]
+   ]
+  },
+  "Label_692": {
+   "new": "World_ClearAreaAroundPlayer__ClearAll",
+   "verdict": "LIKELY",
+   "evidence": [
+    "owner=Label_119 (World_ClearAreaAroundPlayer)"
+   ]
+  },
+  "Label_693": {
+   "new": "World_ClearAreaAroundPlayer__Vehicles",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_119 (World_ClearAreaAroundPlayer)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_694": {
+   "new": "World_ClearAreaAroundPlayer__Objects",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_119 (World_ClearAreaAroundPlayer)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_695": {
+   "new": "World_ClearAreaAroundPlayer__Peds",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_119 (World_ClearAreaAroundPlayer)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_696": {
+   "new": "World_ClearAreaAroundPlayer__Cops",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_119 (World_ClearAreaAroundPlayer)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_697": {
+   "new": "World_ClearAreaAroundPlayer__Projectiles",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_119 (World_ClearAreaAroundPlayer)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_698": {
+   "new": "World_ClearAreaAroundPlayer__Done",
+   "verdict": "VERIFIED",
+   "evidence": [
+    "owner=Label_119 (World_ClearAreaAroundPlayer)",
+    "Track-1 line-read: suffix matches target block"
+   ]
+  },
+  "Label_70": {
+   "new": "Page_Maps_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "14 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['mapa', 'tgsaudoiz']"
+    ]
+   ]
+  },
+  "Label_71": {
+   "new": "Page_Misc_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "47 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['diversas', 'misc']"
+    ]
+   ]
+  },
+  "Label_72": {
+   "new": "Page_Credits_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "57 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['credit', 'tomas', 'gracias', 'thanks']"
+    ]
+   ]
+  },
+  "Label_729": {
+   "new": "UI_Draw_BackKeyChoiceRow1",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "reads choice S2[371]"
+    ],
+    [
+     "+",
+     "shows [N/14]"
+    ]
+   ]
+  },
+  "Label_73": {
+   "new": "Page_Animations_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "15 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['animaci', 'animation']"
+    ]
+   ]
+  },
+  "Label_74": {
+   "new": "Page_Teleport_Hub_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "15 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['teleport']"
+    ]
+   ]
+  },
+  "Label_745": {
+   "new": "UI_Draw_BackKeyChoiceRow2",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "reads choice S2[372]"
+    ]
+   ]
+  },
+  "Label_75": {
+   "new": "Page_SecretPlaces_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "21 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['secret']"
+    ]
+   ]
+  },
+  "Label_76": {
+   "new": "Page_Interiors_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "31 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['interior']"
+    ]
+   ]
+  },
+  "Label_766": {
+   "new": "Vehicle_ShowSuperIdx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "1 param (model title)"
+    ],
+    [
+     "+",
+     "shows (N/M) suffix"
+    ],
+    [
+     "+",
+     "reads class slot S1[[106]]"
+    ]
+   ]
+  },
+  "Label_77": {
+   "new": "Page_Infinite8_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "14 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['infinita']"
+    ]
+   ]
+  },
+  "Label_78": {
+   "new": "Page_UnderWater_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "12 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['agua', 'bajo el']"
+    ]
+   ]
+  },
+  "Label_789": {
+   "new": "Vehicle_ShowSportsIdx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "1 param (model title)"
+    ],
+    [
+     "+",
+     "shows (N/M) suffix"
+    ],
+    [
+     "+",
+     "reads class slot S1[[107]]"
+    ]
+   ]
+  },
+  "Label_79": {
+   "new": "Page_TgsaudoizMaps_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "22 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['tgsaudoiz']"
+    ]
+   ]
+  },
+  "Label_80": {
+   "new": "Page_MenuCustomization_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "18 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['personaliz', 'custom']"
+    ]
+   ]
+  },
+  "Label_807": {
+   "new": "Vehicle_ShowSportsClassicsIdx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "1 param (model title)"
+    ],
+    [
+     "+",
+     "shows (N/M) suffix"
+    ],
+    [
+     "+",
+     "reads class slot S1[[108]]"
+    ]
+   ]
+  },
+  "Label_81": {
+   "new": "Page_MaleOutfits_List_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "37 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['male', 'outfit']"
+    ]
+   ]
+  },
+  "Label_82": {
+   "new": "Page_FemaleOutfits_List_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "43 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['female', 'outfit']"
+    ]
+   ]
+  },
+  "Label_822": {
+   "new": "Vehicle_ShowCoupesIdx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "1 param (model title)"
+    ],
+    [
+     "+",
+     "shows (N/M) suffix"
+    ],
+    [
+     "+",
+     "reads class slot S1[[109]]"
+    ]
+   ]
+  },
+  "Label_83": {
+   "new": "Page_Settings_Root_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "48 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['config', 'setting', 'opcion']"
+    ]
+   ]
+  },
+  "Label_84": {
+   "new": "Page_BuzzardOutfits_Detail_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "21 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['buzzard', 'outfit']"
+    ]
+   ]
+  },
+  "Label_842": {
+   "new": "Vehicle_ShowMuscleIdx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "1 param (model title)"
+    ],
+    [
+     "+",
+     "shows (N/M) suffix"
+    ],
+    [
+     "+",
+     "reads class slot S1[[110]]"
+    ]
+   ]
+  },
+  "Label_85": {
+   "new": "Page_PoWerPuffOutfits_Detail_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "21 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['powerpuff', 'outfit']"
+    ]
+   ]
+  },
+  "Label_851": {
+   "new": "Vehicle_ShowCompactsIdx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "1 param (model title)"
+    ],
+    [
+     "+",
+     "shows (N/M) suffix"
+    ],
+    [
+     "+",
+     "reads class slot S1[[111]]"
+    ]
+   ]
+  },
+  "Label_86": {
+   "new": "Page_PlayerOptions_Router_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "72 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['jugador', 'player']"
+    ]
+   ]
+  },
+  "Label_87": {
+   "new": "Page_MenuEditor_Router_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "24 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['editor']"
+    ]
+   ]
+  },
+  "Label_876": {
+   "new": "Vehicle_ShowSedansIdx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "1 param (model title)"
+    ],
+    [
+     "+",
+     "shows (N/M) suffix"
+    ],
+    [
+     "+",
+     "reads class slot S1[[112]]"
+    ]
+   ]
+  },
+  "Label_88": {
+   "new": "Page_Settings_Scrollbar3_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "7 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['barra', 'scroll']"
+    ]
+   ]
+  },
+  "Label_89": {
+   "new": "Page_HudColorEditor_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "10 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['hud', 'color']"
+    ]
+   ]
+  },
+  "Label_898": {
+   "new": "Vehicle_ShowSUVsIdx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "1 param (model title)"
+    ],
+    [
+     "+",
+     "shows (N/M) suffix"
+    ],
+    [
+     "+",
+     "reads class slot S1[[113]]"
+    ]
+   ]
+  },
+  "Label_9": {
+   "new": "UI_PrepareCleanFrame",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "draws nothing (no DRAW_*)"
+    ],
+    [
+     "+",
+     "hides HUD/help comps"
+    ],
+    [
+     "+",
+     "called when menu open"
+    ]
+   ]
+  },
+  "Label_90": {
+   "new": "Page_Background_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "6 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['fondo', 'background']"
+    ]
+   ]
+  },
+  "Label_91": {
+   "new": "Page_Title_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "5 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['titulo', 'title']"
+    ]
+   ]
+  },
+  "Label_916": {
+   "new": "Vehicle_ShowOffRoadIdx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "1 param (model title)"
+    ],
+    [
+     "+",
+     "shows (N/M) suffix"
+    ],
+    [
+     "+",
+     "reads class slot S1[[114]]"
+    ]
+   ]
+  },
+  "Label_92": {
+   "new": "Page_Settings_Scrollbar1_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "7 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['barra', 'scroll']"
+    ]
+   ]
+  },
+  "Label_93": {
+   "new": "Page_Settings_Scrollbar2_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "7 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['barra', 'scroll']"
+    ]
+   ]
+  },
+  "Label_94": {
+   "new": "Page_SelectedText_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "5 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['texto', 'text']"
+    ]
+   ]
+  },
+  "Label_940": {
+   "new": "Vehicle_ShowMotorcyclesIdx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "1 param (model title)"
+    ],
+    [
+     "+",
+     "shows (N/M) suffix"
+    ],
+    [
+     "+",
+     "reads class slot S1[[115]]"
+    ]
+   ]
+  },
+  "Label_949": {
+   "new": "Vehicle_ShowBicyclesIdx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "1 param (model title)"
+    ],
+    [
+     "+",
+     "shows (N/M) suffix"
+    ],
+    [
+     "+",
+     "reads class slot S1[[116]]"
+    ]
+   ]
+  },
+  "Label_95": {
+   "new": "Page_UnselectedText_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "5 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['texto', 'text']"
+    ]
+   ]
+  },
+  "Label_96": {
+   "new": "Page_Protection_Modder_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "51 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['protec', 'modder']"
+    ]
+   ]
+  },
+  "Label_969": {
+   "new": "Vehicle_ShowEmergencyIdx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "1 param (model title)"
+    ],
+    [
+     "+",
+     "shows (N/M) suffix"
+    ],
+    [
+     "+",
+     "reads class slot S1[[117]]"
+    ]
+   ]
+  },
+  "Label_97": {
+   "new": "Page_SAAB_Outfits_A_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "89 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['saab', 'outfit']"
+    ]
+   ]
+  },
+  "Label_979": {
+   "new": "Vehicle_ShowServiceIdx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "1 param (model title)"
+    ],
+    [
+     "+",
+     "shows (N/M) suffix"
+    ],
+    [
+     "+",
+     "reads class slot S1[[118]]"
+    ]
+   ]
+  },
+  "Label_98": {
+   "new": "Page_JakeModz_Outfits_A_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "55 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['jake', 'outfit']"
+    ]
+   ]
+  },
+  "Label_99": {
+   "new": "Page_SAAB_Outfits_B_Impl",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "85 PushStrings"
+    ],
+    [
+     "+",
+     "topic keywords hit: ['saab', 'outfit']"
+    ]
+   ]
+  },
+  "Label_999": {
+   "new": "Vehicle_ShowUtilityIdx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "1 param (model title)"
+    ],
+    [
+     "+",
+     "shows (N/M) suffix"
+    ],
+    [
+     "+",
+     "reads class slot S1[[119]]"
+    ]
+   ]
+  },
+  "UnusedFunction_0": {
+   "new": "Dead_RawMemWalk",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "dead code: 0 callers"
+    ],
+    [
+     "+",
+     "has body (documented, not claimed-live)"
+    ]
+   ]
+  },
+  "UnusedFunction_1": {
+   "new": "Dead_GlareOverlay",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "dead code: 0 callers"
+    ],
+    [
+     "+",
+     "has body (documented, not claimed-live)"
+    ]
+   ]
+  },
+  "UnusedFunction_2": {
+   "new": "Dead_TextStylePreset",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "dead code: 0 callers"
+    ],
+    [
+     "+",
+     "has body (documented, not claimed-live)"
+    ]
+   ]
+  },
+  "UnusedFunction_3": {
+   "new": "Dead_CycleRowVariant",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "dead code: 0 callers"
+    ],
+    [
+     "+",
+     "has body (documented, not claimed-live)"
+    ]
+   ]
+  },
+  "UnusedFunction_4": {
+   "new": "Dead_SettingRowVariant",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "dead code: 0 callers"
+    ],
+    [
+     "+",
+     "has body (documented, not claimed-live)"
+    ]
+   ]
+  },
+  "UnusedFunction_5": {
+   "new": "Dead_RowVariant",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "dead code: 0 callers"
+    ],
+    [
+     "+",
+     "has body (documented, not claimed-live)"
+    ]
+   ]
+  },
+  "UnusedFunction_6": {
+   "new": "Dead_NumTable",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "dead code: 0 callers"
+    ],
+    [
+     "+",
+     "has body (documented, not claimed-live)"
+    ]
+   ]
+  },
+  "UnusedFunction_7": {
+   "new": "Dead_ThemePresetTable",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "dead code: 0 callers"
+    ],
+    [
+     "+",
+     "has body (documented, not claimed-live)"
+    ]
+   ]
+  },
+  "UnusedFunction_8": {
+   "new": "Dead_NotifyPunisher_SC",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "dead code: 0 callers"
+    ],
+    [
+     "+",
+     "has body (documented, not claimed-live)"
+    ]
+   ]
+  },
+  "UnusedFunction_9": {
+   "new": "Dead_NotifyFuentes",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "+",
+     "dead code: 0 callers"
+    ],
+    [
+     "+",
+     "has body (documented, not claimed-live)"
+    ]
+   ]
+  }
+ },
+ "statics": {
+  "S1[0]": {
+   "new": "gMenu_LeftX",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=15 W=4 P=0 readers=['Label_1151', 'Label_1157', 'Label_264', 'Label_272', 'Label_500', 'Label_551'] writers=['Label_0', 'Label_346']"
+    ],
+    [
+     "+",
+     "19 refs (plausible core state)"
+    ]
+   ]
+  },
+  "S1[1]": {
+   "new": "gMenu_RightX",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=31 W=4 P=0 readers=['Label_1157', 'Label_260', 'Label_314', 'Label_320', 'Label_356', 'Label_427'] writers=['Label_0', 'Label_346']"
+    ],
+    [
+     "+",
+     "35 refs (plausible core state)"
+    ]
+   ]
+  },
+  "S1[2]": {
+   "new": "gMenu_CenterX",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=39 W=4 P=0 readers=['Label_1151', 'Label_1152', 'Label_1153', 'Label_1154', 'Label_1157', 'Label_2326'] writers=['Label_0', 'Label_346']"
+    ],
+    [
+     "+",
+     "43 refs (plausible core state)"
+    ]
+   ]
+  },
+  "S1[3]": {
+   "new": "gTheme_IconId_03",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=45 W=1 P=0 readers=['Label_67', 'Label_68', 'Label_69', 'Label_70', 'Label_71', 'Label_79'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_Main"
+    ],
+    [
+     "+",
+     "45 reads"
+    ]
+   ]
+  },
+  "S1[4]": {
+   "new": "gTheme_IconId_04",
+   "verdict": "LIKELY",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=1 P=0 readers=[] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_Main"
+    ],
+    [
+     "i",
+     "0 reads = reserved palette slot"
+    ]
+   ]
+  },
+  "S1[5]": {
+   "new": "gTheme_IconId_05",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=1 P=0 readers=['Label_64', 'Label_65', 'Label_66'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_Main"
+    ],
+    [
+     "+",
+     "7 reads"
+    ]
+   ]
+  },
+  "S1[6]": {
+   "new": "gTheme_IconId_06",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=11 W=1 P=0 readers=['Label_64', 'Label_65', 'Label_66', 'Label_68', 'Label_69', 'Label_70'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_Main"
+    ],
+    [
+     "+",
+     "11 reads"
+    ]
+   ]
+  },
+  "S1[7]": {
+   "new": "gTheme_IconId_07",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=12 W=1 P=0 readers=['Label_64', 'Label_65', 'Label_69', 'Label_71'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_Main"
+    ],
+    [
+     "+",
+     "12 reads"
+    ]
+   ]
+  },
+  "S1[8]": {
+   "new": "gTheme_IconId_08",
+   "verdict": "LIKELY",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=1 P=0 readers=[] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_Main"
+    ],
+    [
+     "i",
+     "0 reads = reserved palette slot"
+    ]
+   ]
+  },
+  "S1[9]": {
+   "new": "gTheme_IconId_09",
+   "verdict": "LIKELY",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=1 P=0 readers=[] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_Main"
+    ],
+    [
+     "i",
+     "0 reads = reserved palette slot"
+    ]
+   ]
+  },
+  "S1[10]": {
+   "new": "gTheme_IconId_10",
+   "verdict": "LIKELY",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=1 P=0 readers=[] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_Main"
+    ],
+    [
+     "i",
+     "0 reads = reserved palette slot"
+    ]
+   ]
+  },
+  "S1[11]": {
+   "new": "gTheme_IconId_11",
+   "verdict": "LIKELY",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=1 P=0 readers=[] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_Main"
+    ],
+    [
+     "i",
+     "0 reads = reserved palette slot"
+    ]
+   ]
+  },
+  "S1[12]": {
+   "new": "gTheme_IconId_12",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=1 P=0 readers=['Label_69', 'Label_79'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_Main"
+    ],
+    [
+     "+",
+     "7 reads"
+    ]
+   ]
+  },
+  "S1[13]": {
+   "new": "gTheme_IconId_13",
+   "verdict": "LIKELY",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=1 P=0 readers=[] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_Main"
+    ],
+    [
+     "i",
+     "0 reads = reserved palette slot"
+    ]
+   ]
+  },
+  "S1[14]": {
+   "new": "gTheme_IconId_14",
+   "verdict": "LIKELY",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=1 P=0 readers=[] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_Main"
+    ],
+    [
+     "i",
+     "0 reads = reserved palette slot"
+    ]
+   ]
+  },
+  "S1[15]": {
+   "new": "gTheme_IconId_15",
+   "verdict": "LIKELY",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=1 P=0 readers=[] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_Main"
+    ],
+    [
+     "i",
+     "0 reads = reserved palette slot"
+    ]
+   ]
+  },
+  "S1[16]": {
+   "new": "gTheme_IconId_16",
+   "verdict": "LIKELY",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=1 P=0 readers=[] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_Main"
+    ],
+    [
+     "i",
+     "0 reads = reserved palette slot"
+    ]
+   ]
+  },
+  "S1[17]": {
+   "new": "gTheme_IconId_17",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=6 W=1 P=0 readers=['Label_64', 'Label_65', 'Label_66', 'Label_69', 'Label_71'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_Main"
+    ],
+    [
+     "+",
+     "6 reads"
+    ]
+   ]
+  },
+  "S1[18]": {
+   "new": "gTheme_IconId_18",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=12 W=1 P=0 readers=['Label_64', 'Label_65', 'Label_66', 'Label_67', 'Label_68', 'Label_70'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_Main"
+    ],
+    [
+     "+",
+     "12 reads"
+    ]
+   ]
+  },
+  "S1[19]": {
+   "new": "gTheme_IconId_19",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=4 W=1 P=0 readers=['Label_64', 'Label_65'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_Main"
+    ],
+    [
+     "+",
+     "4 reads"
+    ]
+   ]
+  },
+  "S1[20]": {
+   "new": "gTheme_IconId_20",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=20 W=1 P=0 readers=['Label_64', 'Label_65', 'Label_66', 'Label_67', 'Label_68', 'Label_69'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_Main"
+    ],
+    [
+     "+",
+     "20 reads"
+    ]
+   ]
+  },
+  "S1[21]": {
+   "new": "gTheme_IconId_21",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=5 W=1 P=0 readers=['Label_64', 'Label_66', 'Label_69', 'Label_71'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_Main"
+    ],
+    [
+     "+",
+     "5 reads"
+    ]
+   ]
+  },
+  "S1[22]": {
+   "new": "gTheme_IconId_22",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=18 W=1 P=0 readers=['Label_64', 'Label_65', 'Label_66', 'Label_67', 'Label_68', 'Label_69'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_Main"
+    ],
+    [
+     "+",
+     "18 reads"
+    ]
+   ]
+  },
+  "S1[23]": {
+   "new": "gTheme_IconId_23",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=1 P=0 readers=['Label_65', 'Label_71'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_Main"
+    ],
+    [
+     "+",
+     "2 reads"
+    ]
+   ]
+  },
+  "S1[24]": {
+   "new": "gTheme_IconId_24",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=25 W=1 P=0 readers=['Label_64', 'Label_65', 'Label_66', 'Label_67', 'Label_68', 'Label_69'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_Main"
+    ],
+    [
+     "+",
+     "25 reads"
+    ]
+   ]
+  },
+  "S1[25]": {
+   "new": "gTheme_IconId_25",
+   "verdict": "LIKELY",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=1 P=0 readers=[] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_Main"
+    ],
+    [
+     "i",
+     "0 reads = reserved palette slot"
+    ]
+   ]
+  },
+  "S1[26]": {
+   "new": "gTheme_IconId_26",
+   "verdict": "LIKELY",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=1 P=0 readers=[] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_Main"
+    ],
+    [
+     "i",
+     "0 reads = reserved palette slot"
+    ]
+   ]
+  },
+  "S1[27]": {
+   "new": "gTheme_IconId_27",
+   "verdict": "LIKELY",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=1 P=0 readers=[] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_Main"
+    ],
+    [
+     "i",
+     "0 reads = reserved palette slot"
+    ]
+   ]
+  },
+  "S1[28]": {
+   "new": "gMenu_SavedPage",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=2 P=0 readers=['Label_58'] writers=['Label_0', 'Label_275']"
+    ],
+    [
+     "+",
+     "4 refs (plausible core state)"
+    ]
+   ]
+  },
+  "S1[29]": {
+   "new": "gMenu_SavedSelection",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=2 P=0 readers=['Label_58'] writers=['Label_0', 'Label_275']"
+    ],
+    [
+     "+",
+     "3 refs (plausible core state)"
+    ]
+   ]
+  },
+  "S1[30]": {
+   "new": "gTheme_TitleScale",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=0 readers=['Label_1151'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_1151'] settings/tick=['Label_1151']"
+    ]
+   ]
+  },
+  "S1[31]": {
+   "new": "gTheme_TitleR",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=1 readers=['Label_1151'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_1151'] settings/tick=['Label_1151']"
+    ]
+   ]
+  },
+  "S1[32]": {
+   "new": "gTheme_TitleG",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=1 readers=['Label_1151'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_1151'] settings/tick=['Label_1151']"
+    ]
+   ]
+  },
+  "S1[33]": {
+   "new": "gTheme_TitleB",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=1 readers=['Label_1151'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_1151'] settings/tick=['Label_1151']"
+    ]
+   ]
+  },
+  "S1[34]": {
+   "new": "gTheme_TitleA",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=5 W=4 P=0 readers=['Label_356', 'Label_5'] writers=['Label_0', 'Label_5', 'Label_83']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0', 'Label_5', 'Label_83'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_356'] settings/tick=['Label_83', 'Label_5']"
+    ]
+   ]
+  },
+  "S1[35]": {
+   "new": "gTheme_BgR",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=1 readers=['Label_1151'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_1151'] settings/tick=['Label_1151']"
+    ]
+   ]
+  },
+  "S1[36]": {
+   "new": "gTheme_BgG",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=1 readers=['Label_1151'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_1151'] settings/tick=['Label_1151']"
+    ]
+   ]
+  },
+  "S1[37]": {
+   "new": "gTheme_BgB",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=1 readers=['Label_1151'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_1151'] settings/tick=['Label_1151']"
+    ]
+   ]
+  },
+  "S1[38]": {
+   "new": "gTheme_BgA",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=9 P=1 readers=['Label_1151', 'Label_5'] writers=['Label_0', 'Label_5', 'Label_80']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0', 'Label_5', 'Label_80'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_1151'] settings/tick=['Label_80', 'Label_1151', 'Label_5']"
+    ]
+   ]
+  },
+  "S1[39]": {
+   "new": "gTheme_Bar1R",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=6 W=5 P=1 readers=['Label_1151', 'Label_1157', 'Label_365', 'Label_546'] writers=['Label_0', 'UnusedFunction_7']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0', 'UnusedFunction_7'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_546', 'Label_1151', 'Label_1157'] settings/tick=['Label_1151']"
+    ]
+   ]
+  },
+  "S1[40]": {
+   "new": "gTheme_Bar1G",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=6 W=5 P=1 readers=['Label_1151', 'Label_1157', 'Label_365', 'Label_546'] writers=['Label_0', 'UnusedFunction_7']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0', 'UnusedFunction_7'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_546', 'Label_1151', 'Label_1157'] settings/tick=['Label_1151']"
+    ]
+   ]
+  },
+  "S1[41]": {
+   "new": "gTheme_Bar1B",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=6 W=5 P=1 readers=['Label_1151', 'Label_1157', 'Label_365', 'Label_546'] writers=['Label_0', 'UnusedFunction_7']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0', 'UnusedFunction_7'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_546', 'Label_1151', 'Label_1157'] settings/tick=['Label_1151']"
+    ]
+   ]
+  },
+  "S1[42]": {
+   "new": "gColor_R_Title",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=3 P=1 readers=['Label_365'] writers=['Label_0', 'Label_80']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0', 'Label_80'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_365'] settings/tick=['Label_80']"
+    ]
+   ]
+  },
+  "S1[43]": {
+   "new": "gColor_R_Shadow",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=1 P=1 readers=['Label_1151', 'Label_1157'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_1151', 'Label_1157'] settings/tick=['Label_1151']"
+    ]
+   ]
+  },
+  "S1[44]": {
+   "new": "gColor_G_Shadow",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=1 P=0 readers=['Label_1151'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_1151'] settings/tick=['Label_1151']"
+    ]
+   ]
+  },
+  "S1[45]": {
+   "new": "gTheme_Bar2R",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=6 W=5 P=1 readers=['Label_1151', 'Label_1157', 'Label_365', 'Label_546'] writers=['Label_0', 'UnusedFunction_7']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0', 'UnusedFunction_7'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_546', 'Label_1151', 'Label_1157'] settings/tick=['Label_1151']"
+    ]
+   ]
+  },
+  "S1[46]": {
+   "new": "gTheme_Bar2G",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=6 W=5 P=1 readers=['Label_1151', 'Label_1157', 'Label_365', 'Label_546'] writers=['Label_0', 'UnusedFunction_7']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0', 'UnusedFunction_7'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_546', 'Label_1151', 'Label_1157'] settings/tick=['Label_1151']"
+    ]
+   ]
+  },
+  "S1[47]": {
+   "new": "gTheme_Bar2B",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=6 W=5 P=1 readers=['Label_1151', 'Label_1157', 'Label_365', 'Label_546'] writers=['Label_0', 'UnusedFunction_7']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0', 'UnusedFunction_7'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_546', 'Label_1151', 'Label_1157'] settings/tick=['Label_1151']"
+    ]
+   ]
+  },
+  "S1[48]": {
+   "new": "gColor_Row_R",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=3 P=1 readers=['Label_365'] writers=['Label_0', 'Label_80']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0', 'Label_80'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_365'] settings/tick=['Label_80']"
+    ]
+   ]
+  },
+  "S1[49]": {
+   "new": "gColor_Row_G",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=1 P=1 readers=['Label_1151', 'Label_1157'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_1151', 'Label_1157'] settings/tick=['Label_1151']"
+    ]
+   ]
+  },
+  "S1[50]": {
+   "new": "gColor_Row_B",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=6 W=1 P=1 readers=['Label_1151', 'Label_1157', 'Label_365'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_1151', 'Label_1157', 'Label_365'] settings/tick=['Label_1151']"
+    ]
+   ]
+  },
+  "S1[51]": {
+   "new": "gColor_Row_A",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=6 W=1 P=1 readers=['Label_1151', 'Label_1157', 'Label_365'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_1151', 'Label_1157', 'Label_365'] settings/tick=['Label_1151']"
+    ]
+   ]
+  },
+  "S1[52]": {
+   "new": "gColor_Border_R",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=6 W=1 P=1 readers=['Label_1151', 'Label_1157', 'Label_365'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_1151', 'Label_1157', 'Label_365'] settings/tick=['Label_1151']"
+    ]
+   ]
+  },
+  "S1[53]": {
+   "new": "gColor_Border_G",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=3 P=1 readers=['Label_365'] writers=['Label_0', 'Label_80']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0', 'Label_80'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_365'] settings/tick=['Label_80']"
+    ]
+   ]
+  },
+  "S1[54]": {
+   "new": "gColor_Border_B",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=1 P=1 readers=['Label_1151', 'Label_1157'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_1151', 'Label_1157'] settings/tick=['Label_1151']"
+    ]
+   ]
+  },
+  "S1[55]": {
+   "new": "gColor_Border_A",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=1 P=1 readers=['Label_1151'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_1151'] settings/tick=['Label_1151']"
+    ]
+   ]
+  },
+  "S1[56]": {
+   "new": "gColor_Header_R",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=1 P=1 readers=['Label_1151'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_1151'] settings/tick=['Label_1151']"
+    ]
+   ]
+  },
+  "S1[57]": {
+   "new": "gColor_Header_G",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=1 P=1 readers=['Label_1151'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_1151'] settings/tick=['Label_1151']"
+    ]
+   ]
+  },
+  "S1[58]": {
+   "new": "gColor_Header_B",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=0 readers=['Label_546'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_546'] settings/tick=[]"
+    ]
+   ]
+  },
+  "S1[59]": {
+   "new": "gColor_Header_A",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=0 readers=['Label_546'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_546'] settings/tick=[]"
+    ]
+   ]
+  },
+  "S1[60]": {
+   "new": "gColor_TextUnselected_R",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=0 readers=['Label_546'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_546'] settings/tick=[]"
+    ]
+   ]
+  },
+  "S1[61]": {
+   "new": "gColor_TextUnselected_G",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=3 P=0 readers=['Label_546'] writers=['Label_0', 'Label_80']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0', 'Label_80'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_546'] settings/tick=['Label_80']"
+    ]
+   ]
+  },
+  "S1[62]": {
+   "new": "gTheme_BarAlpha",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=3 P=0 readers=['Label_546'] writers=['Label_0', 'Label_80']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0', 'Label_80'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_546'] settings/tick=['Label_80']"
+    ]
+   ]
+  },
+  "S1[63]": {
+   "new": "gMenu_PositionMode",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=1 P=1 readers=['Label_2276', 'Label_346'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "switch subject in UI_ApplyMenuPosition"
+    ],
+    [
+     "+",
+     "FROZEN: 497-row drops addr via 2277 (Label_83)"
+    ],
+    [
+     "+",
+     "init-only StaticSet (486 starved)"
+    ]
+   ]
+  },
+  "S1[64]": {
+   "new": "gTheme_RowBarsEnabled",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=3 P=0 readers=['Label_546'] writers=['Label_0', 'Label_80']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0', 'Label_80'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_546'] settings/tick=['Label_80']"
+    ]
+   ]
+  },
+  "S1[65]": {
+   "new": "gTheme_SelectedIndentEnabled",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=3 P=0 readers=['Label_546'] writers=['Label_0', 'Label_80']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0', 'Label_80'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_546'] settings/tick=['Label_80']"
+    ]
+   ]
+  },
+  "S1[66]": {
+   "new": "gUI_TickIconEnabled",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=3 P=0 readers=['Label_554'] writers=['Label_0', 'Label_80']"
+    ],
+    [
+     "+",
+     "4 refs (plausible UI state)"
+    ]
+   ]
+  },
+  "S1[67]": {
+   "new": "gTheme_IconAlignFlag",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=3 P=0 readers=['Label_561'] writers=['Label_0', 'Label_80']"
+    ],
+    [
+     "+",
+     "gates UI_ResolveIconX"
+    ],
+    [
+     "+",
+     "settings toggle"
+    ]
+   ]
+  },
+  "S1[68]": {
+   "new": "gTheme_TextAlignFlag",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=3 P=0 readers=['Label_552'] writers=['Label_0', 'Label_80']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0', 'Label_80'])"
+    ],
+    [
+     "+",
+     "ui readers=[] settings/tick=['Label_80']"
+    ]
+   ]
+  },
+  "S1[69]": {
+   "new": "gNet_DisableFindNewSession",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=3 P=0 readers=['Label_5', 'Label_83'] writers=['Label_0', 'Label_83']"
+    ],
+    [
+     "+",
+     "6 refs"
+    ]
+   ]
+  },
+  "S1[70]": {
+   "new": "gSettings_LanguageChosen",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=3 P=0 readers=['Label_3'] writers=['Label_0', 'Label_60']"
+    ],
+    [
+     "+",
+     "4 refs"
+    ]
+   ]
+  },
+  "S1[71]": {
+   "new": "gBits_TogglesPage1",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=12 W=0 P=9 readers=['Label_104', 'Label_105', 'Label_5', 'Label_6', 'Label_83'] writers=[]"
+    ],
+    [
+     "+",
+     "bit-ops via pStatic or BIT natives (P=9, users=['Label_83', 'Label_5', 'Label_105'])"
+    ],
+    [
+     "+",
+     "21 total refs"
+    ]
+   ]
+  },
+  "S1[72]": {
+   "new": "gBits_TogglesPage2",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=37 W=0 P=27 readers=['Label_104', 'Label_105', 'Label_5', 'Label_6', 'Label_83', 'Label_86'] writers=[]"
+    ],
+    [
+     "+",
+     "bit-ops via pStatic or BIT natives (P=27, users=['Label_83', 'Label_5', 'Label_105'])"
+    ],
+    [
+     "+",
+     "64 total refs"
+    ]
+   ]
+  },
+  "S1[73]": {
+   "new": "gBits_TogglesPage3",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=0 P=3 readers=['Label_5', 'Label_96'] writers=[]"
+    ],
+    [
+     "+",
+     "bit-ops via pStatic or BIT natives (P=3, users=['Label_96', 'Label_5'])"
+    ],
+    [
+     "+",
+     "6 total refs"
+    ]
+   ]
+  },
+  "S1[74]": {
+   "new": "gMenu_SmoothScroll",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=3 P=0 readers=['Label_365', 'Label_83'] writers=['Label_0', 'Label_83']"
+    ],
+    [
+     "+",
+     "6 refs (plausible core state)"
+    ]
+   ]
+  },
+  "S1[75]": {
+   "new": "gUI_ScrollbarEnabled",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=5 W=3 P=0 readers=['Label_109', 'Label_1151'] writers=['Label_0', 'Label_109']"
+    ],
+    [
+     "+",
+     "8 refs (plausible UI state)"
+    ]
+   ]
+  },
+  "S1[76]": {
+   "new": "gUI_ScrollbarAlways",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=3 P=0 readers=['Label_109', 'Label_1151'] writers=['Label_0', 'Label_109']"
+    ],
+    [
+     "+",
+     "6 refs (plausible UI state)"
+    ]
+   ]
+  },
+  "S1[77]": {
+   "new": "gTheme_RandomOnOpen",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=1 P=2 readers=['Label_291', 'Label_83'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_83'] settings/tick=['Label_83']"
+    ]
+   ]
+  },
+  "S1[78]": {
+   "new": "gTheme_TitleFlashing",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=1 P=2 readers=['Label_5', 'Label_83'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_83'] settings/tick=['Label_83', 'Label_5']"
+    ]
+   ]
+  },
+  "S1[79]": {
+   "new": "gTheme_BackgroundFlashing",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=1 P=2 readers=['Label_5', 'Label_80'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_80'] settings/tick=['Label_80', 'Label_5']"
+    ]
+   ]
+  },
+  "S1[80]": {
+   "new": "gHelp_InstructionalButtons",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=1 P=2 readers=['Label_5', 'Label_83'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "6 refs"
+    ]
+   ]
+  },
+  "S1[81]": {
+   "new": "gTheme_FontTitle",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=1 readers=['Label_1151'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_1151'] settings/tick=['Label_1151']"
+    ]
+   ]
+  },
+  "S1[82]": {
+   "new": "gTheme_FontUnselected",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=15 W=1 P=1 readers=['Label_260', 'Label_326', 'Label_363', 'Label_364', 'Label_427', 'Label_456'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_326', 'Label_260', 'Label_500'] settings/tick=[]"
+    ]
+   ]
+  },
+  "S1[83]": {
+   "new": "gTheme_FontSelected",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=1 readers=['Label_481'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_481'] settings/tick=[]"
+    ]
+   ]
+  },
+  "S1[84]": {
+   "new": "gTheme_FontOptionCount",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=4 W=1 P=1 readers=['Label_1151'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_1151'] settings/tick=['Label_1151']"
+    ]
+   ]
+  },
+  "S1[85]": {
+   "new": "gMenu_HeaderColorId",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=1 P=0 readers=['Label_1151', 'Label_1152', 'Label_1153', 'Label_1154'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "8 refs (plausible core state)"
+    ]
+   ]
+  },
+  "S1[86]": {
+   "new": "gMenu_FooterColorId",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=0 readers=['Label_1151'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "2 refs (plausible core state)"
+    ]
+   ]
+  },
+  "S1[87]": {
+   "new": "gTheme_TextOutline",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=1 P=0 readers=['Label_260', 'Label_363', 'Label_364', 'Label_464', 'Label_487', 'Label_500'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=['Label_0'])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_260', 'Label_500', 'Label_487'] settings/tick=[]"
+    ]
+   ]
+  },
+  "S1[88]": {
+   "new": "gUI_OptionCountEnabled",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=1 P=2 readers=['Label_1151', 'Label_83'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "4 refs (plausible UI state)"
+    ]
+   ]
+  },
+  "S1[89]": {
+   "new": "gUI_ScrollArrowsEnabled",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=1 P=2 readers=['Label_355', 'Label_83'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "4 refs (plausible UI state)"
+    ]
+   ]
+  },
+  "S1[90]": {
+   "new": "gDead_90_Init1",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=1 P=0 readers=[] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "0 reads (dead slot)"
+    ],
+    [
+     "+",
+     "init-only or never touched"
+    ]
+   ]
+  },
+  "S1[91]": {
+   "new": "gHeader_EffectEnabled",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=0 readers=['Label_1151'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "2 refs"
+    ]
+   ]
+  },
+  "S1[92]": {
+   "new": "gSfx_Enabled",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=1 P=0 readers=['Label_283', 'Label_285', 'Label_298'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "gates Sfx fns"
+    ]
+   ]
+  },
+  "S1[93]": {
+   "new": "gCustomScripts_Enabled",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=0 readers=['Label_5'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "2 refs (plausible core state)"
+    ]
+   ]
+  },
+  "S1[94]": {
+   "new": "gPlayer_ClearSpecialAbility",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=0 readers=['Label_9'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "2 refs"
+    ]
+   ]
+  },
+  "S1[95]": {
+   "new": "gVehicle_SpawnInside",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=4 W=3 P=0 readers=['Label_107', 'Label_1509'] writers=['Label_0', 'Label_107']"
+    ],
+    [
+     "+",
+     "used by vehicle pages/spawner"
+    ]
+   ]
+  },
+  "S1[96]": {
+   "new": "gVehicle_MaxPerformance",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=3 P=0 readers=['Label_107', 'Label_2435'] writers=['Label_0', 'Label_107']"
+    ],
+    [
+     "+",
+     "used by vehicle pages/spawner"
+    ]
+   ]
+  },
+  "S1[97]": {
+   "new": "gVehicle_MaxVisual",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=3 P=0 readers=['Label_107', 'Label_2436'] writers=['Label_0', 'Label_107']"
+    ],
+    [
+     "+",
+     "used by vehicle pages/spawner"
+    ]
+   ]
+  },
+  "S1[98]": {
+   "new": "gVehicle_RandomColor",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=4 W=3 P=0 readers=['Label_107', 'Label_2437'] writers=['Label_0', 'Label_107']"
+    ],
+    [
+     "+",
+     "used by vehicle pages/spawner"
+    ]
+   ]
+  },
+  "S1[99]": {
+   "new": "gVehicle_PreventDespawn",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=3 P=0 readers=['Label_107', 'Label_2452'] writers=['Label_0', 'Label_107']"
+    ],
+    [
+     "+",
+     "used by vehicle pages/spawner"
+    ]
+   ]
+  },
+  "S1[100]": {
+   "new": "gUI_RowHeight",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=13 W=1 P=0 readers=['Label_1151', 'Label_1157', 'Label_320', 'Label_365', 'Label_418', 'Label_427'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "13 readers (row-height math)"
+    ]
+   ]
+  },
+  "S1[101]": {
+   "new": "gUI_TmpCounter",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=4 W=1 P=2 readers=['Label_80'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "5 refs (plausible UI state)"
+    ]
+   ]
+  },
+  "S1[102]": {
+   "new": "gUI_WrapMode",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=1 P=1 readers=['Label_2381', 'Label_2386'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "4 refs (plausible UI state)"
+    ]
+   ]
+  },
+  "S1[103]": {
+   "new": "gUI_ScaleX",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=1 readers=['Label_6'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "2 refs (plausible UI state)"
+    ]
+   ]
+  },
+  "S1[104]": {
+   "new": "gUI_ScaleY",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=1 readers=['Label_6'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "2 refs (plausible UI state)"
+    ]
+   ]
+  },
+  "S1[105]": {
+   "new": "gUI_MaxRows",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=1 readers=['Label_6'] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "2 refs (plausible UI state)"
+    ]
+   ]
+  },
+  "S1[106]": {
+   "new": "gVehicle_Idx_Super",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=5 P=0 readers=['Label_106', 'Label_1361', 'Label_766'] writers=['Label_0', 'Label_106']"
+    ],
+    [
+     "+",
+     "cycled in Page_VehicleSpawner"
+    ],
+    [
+     "+",
+     "7 reads (switch + display + spawner)"
+    ]
+   ]
+  },
+  "S1[107]": {
+   "new": "gVehicle_Idx_Sports",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=5 P=0 readers=['Label_106', 'Label_1362', 'Label_789'] writers=['Label_0', 'Label_106']"
+    ],
+    [
+     "+",
+     "cycled in Page_VehicleSpawner"
+    ],
+    [
+     "+",
+     "7 reads (switch + display + spawner)"
+    ]
+   ]
+  },
+  "S1[108]": {
+   "new": "gVehicle_Idx_SportsClassics",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=5 P=0 readers=['Label_106', 'Label_1363', 'Label_807'] writers=['Label_0', 'Label_106']"
+    ],
+    [
+     "+",
+     "cycled in Page_VehicleSpawner"
+    ],
+    [
+     "+",
+     "7 reads (switch + display + spawner)"
+    ]
+   ]
+  },
+  "S1[109]": {
+   "new": "gVehicle_Idx_Coupes",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=5 P=0 readers=['Label_106', 'Label_1364', 'Label_822'] writers=['Label_0', 'Label_106']"
+    ],
+    [
+     "+",
+     "cycled in Page_VehicleSpawner"
+    ],
+    [
+     "+",
+     "7 reads (switch + display + spawner)"
+    ]
+   ]
+  },
+  "S1[110]": {
+   "new": "gVehicle_Idx_Muscle",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=5 P=0 readers=['Label_106', 'Label_1365', 'Label_842'] writers=['Label_0', 'Label_106']"
+    ],
+    [
+     "+",
+     "cycled in Page_VehicleSpawner"
+    ],
+    [
+     "+",
+     "7 reads (switch + display + spawner)"
+    ]
+   ]
+  },
+  "S1[111]": {
+   "new": "gVehicle_Idx_Compacts",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=5 P=0 readers=['Label_106', 'Label_1366', 'Label_851'] writers=['Label_0', 'Label_106']"
+    ],
+    [
+     "+",
+     "cycled in Page_VehicleSpawner"
+    ],
+    [
+     "+",
+     "7 reads (switch + display + spawner)"
+    ]
+   ]
+  },
+  "S1[112]": {
+   "new": "gVehicle_Idx_Sedans",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=5 P=0 readers=['Label_106', 'Label_1367', 'Label_876'] writers=['Label_0', 'Label_106']"
+    ],
+    [
+     "+",
+     "cycled in Page_VehicleSpawner"
+    ],
+    [
+     "+",
+     "7 reads (switch + display + spawner)"
+    ]
+   ]
+  },
+  "S1[113]": {
+   "new": "gVehicle_Idx_SUVs",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=5 P=0 readers=['Label_106', 'Label_1368', 'Label_898'] writers=['Label_0', 'Label_106']"
+    ],
+    [
+     "+",
+     "cycled in Page_VehicleSpawner"
+    ],
+    [
+     "+",
+     "7 reads (switch + display + spawner)"
+    ]
+   ]
+  },
+  "S1[114]": {
+   "new": "gVehicle_Idx_OffRoad",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=5 P=0 readers=['Label_106', 'Label_1369', 'Label_916'] writers=['Label_0', 'Label_106']"
+    ],
+    [
+     "+",
+     "cycled in Page_VehicleSpawner"
+    ],
+    [
+     "+",
+     "7 reads (switch + display + spawner)"
+    ]
+   ]
+  },
+  "S1[115]": {
+   "new": "gVehicle_Idx_Motorcycles",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=5 P=0 readers=['Label_106', 'Label_1370', 'Label_940'] writers=['Label_0', 'Label_106']"
+    ],
+    [
+     "+",
+     "cycled in Page_VehicleSpawner"
+    ],
+    [
+     "+",
+     "7 reads (switch + display + spawner)"
+    ]
+   ]
+  },
+  "S1[116]": {
+   "new": "gVehicle_Idx_Bicycles",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=5 P=0 readers=['Label_106', 'Label_1371', 'Label_949'] writers=['Label_0', 'Label_106']"
+    ],
+    [
+     "+",
+     "cycled in Page_VehicleSpawner"
+    ],
+    [
+     "+",
+     "7 reads (switch + display + spawner)"
+    ]
+   ]
+  },
+  "S1[117]": {
+   "new": "gVehicle_Idx_Emergency",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=5 P=0 readers=['Label_106', 'Label_1372', 'Label_969'] writers=['Label_0', 'Label_106']"
+    ],
+    [
+     "+",
+     "cycled in Page_VehicleSpawner"
+    ],
+    [
+     "+",
+     "7 reads (switch + display + spawner)"
+    ]
+   ]
+  },
+  "S1[118]": {
+   "new": "gVehicle_Idx_Service",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=5 P=0 readers=['Label_106', 'Label_1373', 'Label_979'] writers=['Label_0', 'Label_106']"
+    ],
+    [
+     "+",
+     "cycled in Page_VehicleSpawner"
+    ],
+    [
+     "+",
+     "7 reads (switch + display + spawner)"
+    ]
+   ]
+  },
+  "S1[119]": {
+   "new": "gVehicle_Idx_Utility",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=5 P=0 readers=['Label_106', 'Label_1374', 'Label_999'] writers=['Label_0', 'Label_106']"
+    ],
+    [
+     "+",
+     "cycled in Page_VehicleSpawner"
+    ],
+    [
+     "+",
+     "7 reads (switch + display + spawner)"
+    ]
+   ]
+  },
+  "S1[120]": {
+   "new": "gVehicle_Idx_Industrial",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=5 P=0 readers=['Label_1012', 'Label_106', 'Label_1375'] writers=['Label_0', 'Label_106']"
+    ],
+    [
+     "+",
+     "cycled in Page_VehicleSpawner"
+    ],
+    [
+     "+",
+     "7 reads (switch + display + spawner)"
+    ]
+   ]
+  },
+  "S1[121]": {
+   "new": "gVehicle_Idx_Military",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=5 P=0 readers=['Label_1019', 'Label_106', 'Label_1376'] writers=['Label_0', 'Label_106']"
+    ],
+    [
+     "+",
+     "cycled in Page_VehicleSpawner"
+    ],
+    [
+     "+",
+     "7 reads (switch + display + spawner)"
+    ]
+   ]
+  },
+  "S1[122]": {
+   "new": "gVehicle_Idx_Planes",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=5 P=0 readers=['Label_1039', 'Label_106', 'Label_1377'] writers=['Label_0', 'Label_106']"
+    ],
+    [
+     "+",
+     "cycled in Page_VehicleSpawner"
+    ],
+    [
+     "+",
+     "7 reads (switch + display + spawner)"
+    ]
+   ]
+  },
+  "S1[123]": {
+   "new": "gVehicle_Idx_Helicopters",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=5 P=0 readers=['Label_1056', 'Label_106', 'Label_1378'] writers=['Label_0', 'Label_106']"
+    ],
+    [
+     "+",
+     "cycled in Page_VehicleSpawner"
+    ],
+    [
+     "+",
+     "7 reads (switch + display + spawner)"
+    ]
+   ]
+  },
+  "S1[124]": {
+   "new": "gVehicle_Idx_Boats",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=5 P=0 readers=['Label_106', 'Label_1071', 'Label_1379'] writers=['Label_0', 'Label_106']"
+    ],
+    [
+     "+",
+     "cycled in Page_VehicleSpawner"
+    ],
+    [
+     "+",
+     "7 reads (switch + display + spawner)"
+    ]
+   ]
+  },
+  "S1[125]": {
+   "new": "gVehicle_Idx_Vans",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=5 P=0 readers=['Label_106', 'Label_1102', 'Label_1380'] writers=['Label_0', 'Label_106']"
+    ],
+    [
+     "+",
+     "cycled in Page_VehicleSpawner"
+    ],
+    [
+     "+",
+     "7 reads (switch + display + spawner)"
+    ]
+   ]
+  },
+  "S1[126]": {
+   "new": "gVehicle_Idx_Commercial",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=5 P=0 readers=['Label_106', 'Label_1114', 'Label_1381'] writers=['Label_0', 'Label_106']"
+    ],
+    [
+     "+",
+     "cycled in Page_VehicleSpawner"
+    ],
+    [
+     "+",
+     "7 reads (switch + display + spawner)"
+    ]
+   ]
+  },
+  "S1[127]": {
+   "new": "gVehicle_Idx_Trailers",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=5 P=0 readers=['Label_106', 'Label_1133', 'Label_1382'] writers=['Label_0', 'Label_106']"
+    ],
+    [
+     "+",
+     "cycled in Page_VehicleSpawner"
+    ],
+    [
+     "+",
+     "7 reads (switch + display + spawner)"
+    ]
+   ]
+  },
+  "S1[128]": {
+   "new": "gDead_128_InitNeg1",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=1 P=0 readers=[] writers=['Label_0']"
+    ],
+    [
+     "+",
+     "0 reads (dead slot)"
+    ],
+    [
+     "+",
+     "init-only or never touched"
+    ]
+   ]
+  },
+  "S1[129]": {
+   "new": "gTick_InputConsumed",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=2 P=0 readers=['Label_111'] writers=['Label_111', 'Label_3']"
+    ],
+    [
+     "+",
+     "zeroed in Main_Tick"
+    ],
+    [
+     "+",
+     "set in Input_HandleScrollNav"
+    ]
+   ]
+  },
+  "S1[130]": {
+   "new": "gMenu_CurrentPage",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=12 W=5 P=0 readers=['Label_111', 'Label_275', 'Label_3', 'Label_455', 'Label_458', 'Label_5'] writers=['Label_111', 'Label_275', 'Label_455', 'Label_58']"
+    ],
+    [
+     "+",
+     "switch subject with ~48 page cases in Main_Tick"
+    ],
+    [
+     "+",
+     "5 writers (nav changes page)"
+    ]
+   ]
+  },
+  "S1[131]": {
+   "new": "gTick_InputCooldownUntil",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=0 readers=['Label_5'] writers=['Label_111']"
+    ],
+    [
+     "+",
+     "2 refs (plausible core state)"
+    ]
+   ]
+  },
+  "S1[132]": {
+   "new": "gCustomScripts_Count",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=6 W=2 P=0 readers=['Label_1940', 'Label_401', 'Label_402', 'Label_5', 'Label_71'] writers=['Label_1940', 'Label_401']"
+    ],
+    [
+     "+",
+     "incremented by CustomScript_CountUp"
+    ],
+    [
+     "+",
+     "read by Tick/custom entry"
+    ]
+   ]
+  },
+  "S1[133]": {
+   "new": "gCustomScripts_CanAdd",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=2 P=0 readers=['Label_71'] writers=['Label_5']"
+    ],
+    [
+     "+",
+     "computed in Tick"
+    ],
+    [
+     "+",
+     "gates Add-Custom-Script row"
+    ]
+   ]
+  },
+  "S1[134]": {
+   "new": "gQueue_PendingScript",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=5 W=3 P=0 readers=['Label_5'] writers=['Label_1835', 'Label_1940', 'Label_5']"
+    ],
+    [
+     "+",
+     "written by Loader_AddMenuEntry"
+    ],
+    [
+     "+",
+     "consumed by Tick (Label_5)"
+    ]
+   ]
+  },
+  "S1[135]": {
+   "new": "gQueue_RequestSent",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=2 P=0 readers=['Label_5'] writers=['Label_5']"
+    ],
+    [
+     "+",
+     "owned by Tick Label_5 (request flag)"
+    ]
+   ]
+  },
+  "S1[136]": {
+   "new": "gQueue_PendingStack",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=2 P=0 readers=['Label_5'] writers=['Label_1835', 'Label_1940']"
+    ],
+    [
+     "+",
+     "written by Loader_AddMenuEntry"
+    ],
+    [
+     "+",
+     "consumed by Tick (Label_5)"
+    ]
+   ]
+  },
+  "S1[137]": {
+   "new": "gBits_Features0",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=0 P=2 readers=['Label_5', 'Label_96'] writers=[]"
+    ],
+    [
+     "+",
+     "bit-ops via pStatic or BIT natives (P=2, users=['Label_96', 'Label_5'])"
+    ],
+    [
+     "+",
+     "5 total refs"
+    ]
+   ]
+  },
+  "S1[138]": {
+   "new": "gBits_Features1",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=38 W=0 P=27 readers=['Label_104', 'Label_105', 'Label_5', 'Label_6', 'Label_66', 'Label_86'] writers=[]"
+    ],
+    [
+     "+",
+     "bit-ops via pStatic or BIT natives (P=27, users=['Label_5', 'Label_66', 'Label_105'])"
+    ],
+    [
+     "+",
+     "65 total refs"
+    ]
+   ]
+  },
+  "S1[139]": {
+   "new": "gBits_Features2",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=0 P=2 readers=['Label_5', 'Label_96'] writers=[]"
+    ],
+    [
+     "+",
+     "bit-ops via pStatic or BIT natives (P=2, users=['Label_96', 'Label_5'])"
+    ],
+    [
+     "+",
+     "5 total refs"
+    ]
+   ]
+  },
+  "S1[140]": {
+   "new": "gBits_Features3",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=4 W=0 P=2 readers=['Label_5', 'Label_6', 'Label_86'] writers=[]"
+    ],
+    [
+     "+",
+     "bit-ops via pStatic or BIT natives (P=2, users=['Label_86', 'Label_5', 'Label_6'])"
+    ],
+    [
+     "+",
+     "6 total refs"
+    ]
+   ]
+  },
+  "S1[141]": {
+   "new": "gBits_Features4",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=0 P=0 readers=['Label_5'] writers=[]"
+    ],
+    [
+     "+",
+     "bit-ops via pStatic or BIT natives (P=0, users=['Label_5'])"
+    ],
+    [
+     "+",
+     "1 total refs"
+    ]
+   ]
+  },
+  "S1[142]": {
+   "new": "gBits_Features5",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=13 W=0 P=8 readers=['Label_104', 'Label_105', 'Label_5', 'Label_6'] writers=[]"
+    ],
+    [
+     "+",
+     "bit-ops via pStatic or BIT natives (P=8, users=['Label_104', 'Label_6', 'Label_5'])"
+    ],
+    [
+     "+",
+     "21 total refs"
+    ]
+   ]
+  },
+  "S1[143]": {
+   "new": "gBits_Features6",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=30 W=0 P=20 readers=['Label_5', 'Label_6', 'Label_65', 'Label_86', 'Label_96'] writers=[]"
+    ],
+    [
+     "+",
+     "bit-ops via pStatic or BIT natives (P=20, users=['Label_96', 'Label_5', 'Label_65'])"
+    ],
+    [
+     "+",
+     "50 total refs"
+    ]
+   ]
+  },
+  "S1[144]": {
+   "new": "gMenu_SubMode",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=18 P=0 readers=['Label_5'] writers=['Label_5']"
+    ],
+    [
+     "+",
+     "19 refs (plausible core state)"
+    ]
+   ]
+  },
+  "S1[145]": {
+   "new": "gBits_Features8",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=0 P=2 readers=['Label_5', 'Label_71'] writers=[]"
+    ],
+    [
+     "+",
+     "bit-ops via pStatic or BIT natives (P=2, users=['Label_71', 'Label_5'])"
+    ],
+    [
+     "+",
+     "5 total refs"
+    ]
+   ]
+  },
+  "S1[146]": {
+   "new": "gBits_Features9",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=0 P=2 readers=['Label_5', 'Label_83'] writers=[]"
+    ],
+    [
+     "+",
+     "bit-ops via pStatic or BIT natives (P=2, users=['Label_83', 'Label_5'])"
+    ],
+    [
+     "+",
+     "5 total refs"
+    ]
+   ]
+  },
+  "S1[147]": {
+   "new": "gBits_Features10",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=28 W=0 P=24 readers=['Label_104', 'Label_105', 'Label_5', 'Label_6', 'Label_83'] writers=[]"
+    ],
+    [
+     "+",
+     "bit-ops via pStatic or BIT natives (P=24, users=['Label_83', 'Label_5', 'Label_105'])"
+    ],
+    [
+     "+",
+     "52 total refs"
+    ]
+   ]
+  },
+  "S1[148]": {
+   "new": "gMenu_SubMode2",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=2 P=0 readers=['Label_5'] writers=['Label_5']"
+    ],
+    [
+     "+",
+     "3 refs (plausible core state)"
+    ]
+   ]
+  },
+  "S1[149]": {
+   "new": "gMenu_SubMode3",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=5 P=0 readers=['Label_5', 'Label_80'] writers=['Label_5', 'Label_80']"
+    ],
+    [
+     "+",
+     "7 refs (plausible core state)"
+    ]
+   ]
+  },
+  "S1[150]": {
+   "new": "gHelp_CustomKeysFrame",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=2 P=0 readers=['Label_5'] writers=['Label_458', 'Label_5']"
+    ],
+    [
+     "+",
+     "set by Help_DrawCustomKeys"
+    ],
+    [
+     "+",
+     "cleared per-frame by Tick"
+    ]
+   ]
+  },
+  "S1[151]": {
+   "new": "gPlayer_WantedLevelBackup",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=4 P=0 readers=['Label_6'] writers=['Label_6', 'Label_86']"
+    ],
+    [
+     "+",
+     "6 refs"
+    ]
+   ]
+  },
+  "S1[152]": {
+   "new": "gTick_FxCleanDone",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=2 P=0 readers=['Label_6'] writers=['Label_6']"
+    ],
+    [
+     "+",
+     "one-shot latch in Tick-6"
+    ]
+   ]
+  },
+  "S1[153]": {
+   "new": "gPlayer_GodModeCached",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=2 P=0 readers=['Label_6', 'Label_86'] writers=['Label_86']"
+    ],
+    [
+     "+",
+     "4 refs"
+    ]
+   ]
+  },
+  "S1[154]": {
+   "new": "gTmp_ImpactCoordA",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=2 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "2 refs"
+    ]
+   ]
+  },
+  "S1[155]": {
+   "new": "gTmp_DeleteGunTarget",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=4 W=0 P=2 readers=['Label_6'] writers=[]"
+    ],
+    [
+     "+",
+     "6 refs"
+    ]
+   ]
+  },
+  "S1[156]": {
+   "new": "gTmp_ImpactCoordB",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=2 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "2 refs"
+    ]
+   ]
+  },
+  "S1[157]": {
+   "new": "gTmp_TintWeapon",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=0 P=1 readers=['Label_6'] writers=[]"
+    ],
+    [
+     "+",
+     "2 refs"
+    ]
+   ]
+  },
+  "S1[158]": {
+   "new": "gTmp_ImpactCoordC",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=5 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "5 refs"
+    ]
+   ]
+  },
+  "S1[159]": {
+   "new": "gTmp_AimbotTarget",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=0 P=1 readers=['Label_6'] writers=[]"
+    ],
+    [
+     "+",
+     "4 refs"
+    ]
+   ]
+  },
+  "S1[160]": {
+   "new": "gTmp_AimWeapon",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=0 P=1 readers=['Label_6'] writers=[]"
+    ],
+    [
+     "+",
+     "3 refs"
+    ]
+   ]
+  },
+  "S1[161]": {
+   "new": "gTmp_WeaponHudStats",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=2 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "2 refs"
+    ]
+   ]
+  },
+  "S1[162]": {
+   "new": "gVehicle_GravityFlags",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=8 W=0 P=6 readers=['Label_104', 'Label_105', 'Label_6'] writers=[]"
+    ],
+    [
+     "+",
+     "used by vehicle pages/spawner"
+    ]
+   ]
+  },
+  "S1[163]": {
+   "new": "gTmp_NearbyVehInit",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=3 P=0 readers=['Label_6'] writers=['Label_105', 'Label_6']"
+    ],
+    [
+     "+",
+     "4 refs"
+    ]
+   ]
+  },
+  "S1[164]": {
+   "new": "gTmp_NearbyVehicles",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=4 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "4 refs"
+    ]
+   ]
+  },
+  "S1[165]": {
+   "new": "gTmp_NearbyVehCount",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=0 readers=['Label_6'] writers=['Label_6']"
+    ],
+    [
+     "+",
+     "2 refs"
+    ]
+   ]
+  },
+  "S1[166]": {
+   "new": "gTmp_NearbyVehIdx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=2 P=0 readers=['Label_6'] writers=['Label_6']"
+    ],
+    [
+     "+",
+     "5 refs"
+    ]
+   ]
+  },
+  "S1[167]": {
+   "new": "gProt_SpawnFlags",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=0 P=2 readers=['Label_105', 'Label_6'] writers=[]"
+    ],
+    [
+     "+",
+     "bit-ops via pStatic or BIT natives (P=2, users=['Label_6', 'Label_105'])"
+    ],
+    [
+     "+",
+     "5 total refs"
+    ]
+   ]
+  },
+  "S1[168]": {
+   "new": "gProt_NetworkFlags",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=9 W=0 P=8 readers=['Label_105', 'Label_6'] writers=[]"
+    ],
+    [
+     "+",
+     "bit-ops via pStatic or BIT natives (P=8, users=['Label_6', 'Label_105'])"
+    ],
+    [
+     "+",
+     "17 total refs"
+    ]
+   ]
+  },
+  "S1[169]": {
+   "new": "gTick_RepairVehicle",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=9 W=1 P=0 readers=['Label_6'] writers=['Label_6']"
+    ],
+    [
+     "+",
+     "repair target in Tick-6"
+    ]
+   ]
+  },
+  "S1[170]": {
+   "new": "gCheat_AimedEntity",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=0 P=1 readers=['Label_227'] writers=[]"
+    ],
+    [
+     "+",
+     "aim out-param in force-push 227"
+    ],
+    [
+     "+",
+     "target read in 227"
+    ]
+   ]
+  },
+  "S1[171]": {
+   "new": "gNet_ListYCursor",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=4 W=4 P=0 readers=['Label_255', 'Label_267'] writers=['Label_169', 'Label_171', 'Label_255', 'Label_267']"
+    ],
+    [
+     "+",
+     "Y reset by list drivers"
+    ],
+    [
+     "+",
+     "advanced per row"
+    ]
+   ]
+  },
+  "S1[172]": {
+   "new": "gUtil_ItoSBuf",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=1 P=2 readers=[] writers=['Label_370']"
+    ],
+    [
+     "+",
+     "ItoS buffer in int-to-string 370"
+    ]
+   ]
+  },
+  "S1[173]": {
+   "new": "gInput_HoldCounter",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=6 W=11 P=0 readers=['Label_111', 'Label_1179', 'Label_1181', 'Label_279', 'Label_466'] writers=['Label_111', 'Label_1179', 'Label_1181', 'Label_279', 'Label_466']"
+    ],
+    [
+     "+",
+     "ticked by Input_HoldTick"
+    ],
+    [
+     "+",
+     "read by cycle/scroll input"
+    ]
+   ]
+  },
+  "S1[174]": {
+   "new": "gMenu_PageStackDepth",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=4 W=2 P=0 readers=['Label_111', 'Label_455'] writers=['Label_111', 'Label_455']"
+    ],
+    [
+     "+",
+     "depth used by Menu_PushPage"
+    ],
+    [
+     "+",
+     "read by scroll-nav pop"
+    ]
+   ]
+  },
+  "S1[175]": {
+   "new": "gMenu_PageStack_0",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=2 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "ArraySet base in Menu_PushPage"
+    ],
+    [
+     "+",
+     "ArrayGet base in scroll-nav pop"
+    ]
+   ]
+  },
+  "S1[176]": {
+   "new": "gBits_SpriteOutline",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=1 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "1 pStatic refs in sprite page"
+    ]
+   ]
+  },
+  "S1[186]": {
+   "new": "gMenu_SelStack_0",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=2 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "ArraySet base in Menu_PushPage"
+    ],
+    [
+     "+",
+     "ArrayGet base in scroll-nav pop"
+    ]
+   ]
+  },
+  "S1[197]": {
+   "new": "gInput_SelectedRow",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=65 W=10 P=0 readers=['Label_111', 'Label_1940', 'Label_275', 'Label_319', 'Label_320', 'Label_324'] writers=['Label_111', 'Label_1940', 'Label_402', 'Label_455', 'Label_58']"
+    ],
+    [
+     "+",
+     "moved by scroll nav"
+    ],
+    [
+     "+",
+     "read by Input_GetSelectedIndex"
+    ]
+   ]
+  },
+  "S1[198]": {
+   "new": "gUI_VisibleRowCount",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=12 W=1 P=0 readers=['Label_111', 'Label_1151', 'Label_1157', 'Label_355'] writers=['Label_1151']"
+    ],
+    [
+     "+",
+     "computed in 1151 (min(opts,rows))"
+    ],
+    [
+     "+",
+     "scroll-wrap limit in 111"
+    ]
+   ]
+  },
+  "S1[199]": {
+   "new": "gScaleform_Handle0",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=5 W=1 P=2 readers=['Label_111', 'Label_275', 'Label_352'] writers=['Label_352']"
+    ],
+    [
+     "+",
+     "scaleform users: ['Label_111', 'Label_275', 'Label_352']"
+    ]
+   ]
+  },
+  "S1[200]": {
+   "new": "gScaleform_Handle1",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=0 P=2 readers=['Label_111', 'Label_275'] writers=[]"
+    ],
+    [
+     "+",
+     "scaleform users: ['Label_111', 'Label_275']"
+    ]
+   ]
+  },
+  "S1[201]": {
+   "new": "gScaleform_Handle2",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=5 W=1 P=2 readers=['Label_111', 'Label_275', 'UnusedFunction_1'] writers=['UnusedFunction_1']"
+    ],
+    [
+     "+",
+     "scaleform users: ['Label_111', 'Label_275', 'UnusedFunction_1']"
+    ]
+   ]
+  },
+  "S1[202]": {
+   "new": "gScaleform_HelpBar",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=10 W=1 P=2 readers=['Label_111', 'Label_164', 'Label_167', 'Label_275'] writers=['Label_164']"
+    ],
+    [
+     "+",
+     "scaleform users: ['Label_111', 'Label_164', 'Label_167']"
+    ]
+   ]
+  },
+  "S1[203]": {
+   "new": "gSplash_ShowOpenHint",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=0 readers=['Label_58'] writers=['Label_58']"
+    ],
+    [
+     "+",
+     "splash-local flag"
+    ]
+   ]
+  },
+  "S1[204]": {
+   "new": "gInput_BackKey",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=15 P=0 readers=['Label_275', 'Label_58'] writers=['Label_1', 'Label_2278']"
+    ],
+    [
+     "+",
+     "read by Menu_HandleBack (back keys)"
+    ]
+   ]
+  },
+  "S1[205]": {
+   "new": "gInput_BackKeyAlt",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=15 P=0 readers=['Label_275', 'Label_58'] writers=['Label_1', 'Label_2280']"
+    ],
+    [
+     "+",
+     "read by Menu_HandleBack (back keys)"
+    ]
+   ]
+  },
+  "S1[206]": {
+   "new": "gUI_ScrollKnobY",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=6 W=2 P=0 readers=['Label_1151', 'Label_365'] writers=['Label_365', 'Label_58']"
+    ],
+    [
+     "+",
+     "knob Y in scrollbar 365"
+    ],
+    [
+     "+",
+     "consumed by 1151"
+    ]
+   ]
+  },
+  "S1[207]": {
+   "new": "gInput_CycleDelay",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=0 readers=['Label_466'] writers=['Label_462']"
+    ],
+    [
+     "+",
+     "set by Input_SetCycleDelay"
+    ],
+    [
+     "+",
+     "read by Input_IsCyclePressed"
+    ]
+   ]
+  },
+  "S1[208]": {
+   "new": "gInput_PageRepeatDelay",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=6 P=0 readers=['Label_1179', 'Label_1181'] writers=['Label_106', 'Label_66', 'Label_73', 'Label_86', 'Label_89']"
+    ],
+    [
+     "+",
+     "rate for L/R repeat pair"
+    ],
+    [
+     "+",
+     "6 page writers (set before use)"
+    ]
+   ]
+  },
+  "S1[209]": {
+   "new": "gUI_Hdr_R",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=0 P=1 readers=['Label_1154'] writers=[]"
+    ],
+    [
+     "+",
+     "read by UI_Draw_HeaderTitle"
+    ],
+    [
+     "+",
+     "init via ModLoader_Statics.c"
+    ]
+   ]
+  },
+  "S1[210]": {
+   "new": "gUI_Hdr_G",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=0 P=0 readers=['Label_1154'] writers=[]"
+    ],
+    [
+     "+",
+     "read by UI_Draw_HeaderTitle"
+    ],
+    [
+     "+",
+     "init via ModLoader_Statics.c"
+    ]
+   ]
+  },
+  "S1[211]": {
+   "new": "gUI_Hdr_B",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=0 P=0 readers=['Label_1154'] writers=[]"
+    ],
+    [
+     "+",
+     "read by UI_Draw_HeaderTitle"
+    ],
+    [
+     "+",
+     "init via ModLoader_Statics.c"
+    ]
+   ]
+  },
+  "S1[212]": {
+   "new": "gUI_Hdr_A",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=0 P=0 readers=['Label_1154'] writers=[]"
+    ],
+    [
+     "+",
+     "read by UI_Draw_HeaderTitle"
+    ],
+    [
+     "+",
+     "init via ModLoader_Statics.c"
+    ]
+   ]
+  },
+  "S1[213]": {
+   "new": "gUI_TextBaseY",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=1 P=0 readers=['Label_1151', 'Label_1153', 'Label_1154'] writers=['Label_1151']"
+    ],
+    [
+     "+",
+     "8 refs (plausible UI state)"
+    ]
+   ]
+  },
+  "S1[214]": {
+   "new": "gUI_RowCounter",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=62 W=2 P=0 readers=['Label_1940', 'Label_319', 'Label_320', 'Label_324', 'Label_331', 'Label_335'] writers=['Label_1154', 'Label_546']"
+    ],
+    [
+     "+",
+     "incremented by UI_RenderRow"
+    ],
+    [
+     "+",
+     "62 reads (per-row compare)"
+    ]
+   ]
+  },
+  "S1[215]": {
+   "new": "gUI_PlayerNameR",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=0 P=0 readers=['Label_1153'] writers=[]"
+    ],
+    [
+     "+",
+     "name-banner color in 1153"
+    ]
+   ]
+  },
+  "S1[216]": {
+   "new": "gUI_PlayerNameG",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=0 P=0 readers=['Label_1153'] writers=[]"
+    ],
+    [
+     "+",
+     "name-banner color in 1153"
+    ]
+   ]
+  },
+  "S1[217]": {
+   "new": "gUI_PlayerNameB",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=0 P=0 readers=['Label_1153'] writers=[]"
+    ],
+    [
+     "+",
+     "name-banner color in 1153"
+    ]
+   ]
+  },
+  "S1[218]": {
+   "new": "gUI_PlayerNameA",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=0 P=0 readers=['Label_1153'] writers=[]"
+    ],
+    [
+     "+",
+     "name-banner color in 1153"
+    ]
+   ]
+  },
+  "S1[219]": {
+   "new": "gUI_WelcomeR",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=0 P=0 readers=['Label_1152'] writers=[]"
+    ],
+    [
+     "+",
+     "WELCOME-banner color in 1152"
+    ]
+   ]
+  },
+  "S1[220]": {
+   "new": "gUI_WelcomeG",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=5 W=0 P=0 readers=['Label_1151', 'Label_1152'] writers=[]"
+    ],
+    [
+     "+",
+     "WELCOME-banner color in 1152"
+    ]
+   ]
+  },
+  "S1[221]": {
+   "new": "gUI_WelcomeB",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=5 W=0 P=0 readers=['Label_1151', 'Label_1152'] writers=[]"
+    ],
+    [
+     "+",
+     "WELCOME-banner color in 1152"
+    ]
+   ]
+  },
+  "S1[222]": {
+   "new": "gUI_WelcomeA",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=5 W=0 P=0 readers=['Label_1151', 'Label_1152'] writers=[]"
+    ],
+    [
+     "+",
+     "WELCOME-banner color in 1152"
+    ]
+   ]
+  },
+  "S1[223]": {
+   "new": "gUI_RowsPerPage",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=43 W=8 P=0 readers=['Label_1151', 'Label_1157', 'Label_320', 'Label_355', 'Label_365', 'Label_418'] writers=['Label_1', 'Label_2282']"
+    ],
+    [
+     "+",
+     "set 9..12 by Settings_RowsPerPage"
+    ],
+    [
+     "+",
+     "init 10 in Mod_Init"
+    ]
+   ]
+  },
+  "S1[224]": {
+   "new": "gUI_RowY",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=13 W=4 P=0 readers=['Label_320', 'Label_427', 'Label_436', 'Label_512'] writers=['Label_320', 'Label_418', 'Label_427', 'Label_512']"
+    ],
+    [
+     "+",
+     "17 refs (plausible UI state)"
+    ]
+   ]
+  },
+  "S1[225]": {
+   "new": "gHighlight_Themed",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=8 W=3 P=0 readers=['Label_108', 'Label_320', 'Label_436'] writers=['Label_1', 'Label_108']"
+    ],
+    [
+     "+",
+     "themed gate read by highlight bar 436 + header 320"
+    ],
+    [
+     "+",
+     "set by sprite page 108 + init"
+    ]
+   ]
+  },
+  "S1[226]": {
+   "new": "gUI_HdrSpriteShift",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=2 P=0 readers=['Label_320'] writers=['Label_324']"
+    ],
+    [
+     "+",
+     "shift set by 324"
+    ],
+    [
+     "+",
+     "subtracted in header sprite 320"
+    ]
+   ]
+  },
+  "S1[227]": {
+   "new": "gHighlight_W",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=4 W=10 P=0 readers=['Label_320', 'Label_436'] writers=['Label_2386']"
+    ],
+    [
+     "+",
+     "highlight size in 436/320"
+    ],
+    [
+     "+",
+     "set by theme applier 2386"
+    ]
+   ]
+  },
+  "S1[228]": {
+   "new": "gHighlight_H",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=4 W=10 P=0 readers=['Label_320', 'Label_436'] writers=['Label_2386']"
+    ],
+    [
+     "+",
+     "highlight size in 436/320"
+    ],
+    [
+     "+",
+     "set by theme applier 2386"
+    ]
+   ]
+  },
+  "S1[229]": {
+   "new": "gHighlight_R",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=4 W=1 P=1 readers=['Label_320', 'Label_436'] writers=['Label_1']"
+    ],
+    [
+     "+",
+     "highlight color in 436/320"
+    ],
+    [
+     "+",
+     "init colors"
+    ]
+   ]
+  },
+  "S1[230]": {
+   "new": "gHighlight_G",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=4 W=1 P=1 readers=['Label_320', 'Label_436'] writers=['Label_1']"
+    ],
+    [
+     "+",
+     "highlight color in 436/320"
+    ],
+    [
+     "+",
+     "init colors"
+    ]
+   ]
+  },
+  "S1[231]": {
+   "new": "gHighlight_B",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=4 W=1 P=0 readers=['Label_320', 'Label_436'] writers=['Label_1']"
+    ],
+    [
+     "+",
+     "highlight color in 436/320"
+    ],
+    [
+     "+",
+     "init colors"
+    ]
+   ]
+  },
+  "S1[232]": {
+   "new": "gIcon_W",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=4 W=11 P=0 readers=['Label_320', 'Label_436'] writers=['Label_1', 'Label_2386']"
+    ],
+    [
+     "+",
+     "icon size in 436/320"
+    ],
+    [
+     "+",
+     "init + theme applier"
+    ]
+   ]
+  },
+  "S1[233]": {
+   "new": "gIcon_H",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=4 W=11 P=0 readers=['Label_320', 'Label_436'] writers=['Label_1', 'Label_2386']"
+    ],
+    [
+     "+",
+     "icon size in 436/320"
+    ],
+    [
+     "+",
+     "init + theme applier"
+    ]
+   ]
+  },
+  "S1[234]": {
+   "new": "gTheme_HeaderR",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=11 P=1 readers=['Label_320', 'Label_439'] writers=['Label_1', 'Label_2386']"
+    ],
+    [
+     "+",
+     "returned by UI_Get_SelectionColor"
+    ],
+    [
+     "+",
+     "themed by Theme_ApplyHeaderPreset"
+    ]
+   ]
+  },
+  "S1[235]": {
+   "new": "gTheme_HeaderG",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=11 P=1 readers=['Label_320', 'Label_439'] writers=['Label_1', 'Label_2386']"
+    ],
+    [
+     "+",
+     "returned by UI_Get_SelectionColor"
+    ],
+    [
+     "+",
+     "themed by Theme_ApplyHeaderPreset"
+    ]
+   ]
+  },
+  "S1[236]": {
+   "new": "gTheme_HeaderB",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=11 P=1 readers=['Label_320', 'Label_439'] writers=['Label_1', 'Label_2386']"
+    ],
+    [
+     "+",
+     "returned by UI_Get_SelectionColor"
+    ],
+    [
+     "+",
+     "themed by Theme_ApplyHeaderPreset"
+    ]
+   ]
+  },
+  "S1[237]": {
+   "new": "gUI_HdrSubShift",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=2 P=0 readers=['Label_320'] writers=['Label_324']"
+    ],
+    [
+     "+",
+     "shift set by 324"
+    ],
+    [
+     "+",
+     "subtracted in header sprite 320"
+    ]
+   ]
+  },
+  "S1[238]": {
+   "new": "gTheme_HeaderR2",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=11 P=1 readers=['Label_320', 'Label_439'] writers=['Label_1', 'Label_2386']"
+    ],
+    [
+     "+",
+     "returned by UI_Get_SelectionColor"
+    ],
+    [
+     "+",
+     "themed by Theme_ApplyHeaderPreset"
+    ]
+   ]
+  },
+  "S1[239]": {
+   "new": "gTheme_HeaderG2",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=11 P=1 readers=['Label_320', 'Label_439'] writers=['Label_1', 'Label_2386']"
+    ],
+    [
+     "+",
+     "returned by UI_Get_SelectionColor"
+    ],
+    [
+     "+",
+     "themed by Theme_ApplyHeaderPreset"
+    ]
+   ]
+  },
+  "S1[240]": {
+   "new": "gTheme_HeaderB2",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=11 P=1 readers=['Label_320', 'Label_439'] writers=['Label_1', 'Label_2386']"
+    ],
+    [
+     "+",
+     "returned by UI_Get_SelectionColor"
+    ],
+    [
+     "+",
+     "themed by Theme_ApplyHeaderPreset"
+    ]
+   ]
+  },
+  "S1[241]": {
+   "new": "gTheme_TextSelectedR",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=9 W=0 P=1 readers=['Label_320', 'Label_331', 'Label_456', 'Label_475', 'Label_483', 'Label_491'] writers=[]"
+    ],
+    [
+     "+",
+     "returned by UI_GetRowTextRGB when selected"
+    ]
+   ]
+  },
+  "S1[242]": {
+   "new": "gTheme_TextSelectedG",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=9 W=0 P=1 readers=['Label_320', 'Label_331', 'Label_456', 'Label_475', 'Label_483', 'Label_491'] writers=[]"
+    ],
+    [
+     "+",
+     "returned by UI_GetRowTextRGB when selected"
+    ]
+   ]
+  },
+  "S1[243]": {
+   "new": "gTheme_TextSelectedB",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=9 W=0 P=1 readers=['Label_320', 'Label_331', 'Label_456', 'Label_475', 'Label_483', 'Label_491'] writers=[]"
+    ],
+    [
+     "+",
+     "returned by UI_GetRowTextRGB when selected"
+    ]
+   ]
+  },
+  "S1[244]": {
+   "new": "gTheme_TextOutlineHeader",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=0 P=0 readers=['Label_326', 'Label_456', 'Label_475', 'Label_483', 'Label_512', 'Label_516'] writers=[]"
+    ],
+    [
+     "+",
+     "init in Label_0/1 or static-file (writers=[])"
+    ],
+    [
+     "+",
+     "ui readers=['Label_326', 'Label_512', 'Label_456'] settings/tick=[]"
+    ]
+   ]
+  },
+  "S1[245]": {
+   "new": "gUI_ScrollArrowsAlways",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=0 P=2 readers=['Label_355', 'Label_83'] writers=[]"
+    ],
+    [
+     "+",
+     "arrows-always gate in scroll-arrows 355"
+    ],
+    [
+     "+",
+     "bit toggled in settings 83"
+    ]
+   ]
+  },
+  "S1[246]": {
+   "new": "gUI_FooterY",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=6 W=1 P=0 readers=['Label_1151', 'Label_355'] writers=['Label_1151']"
+    ],
+    [
+     "+",
+     "footer Y owned by 1151"
+    ]
+   ]
+  },
+  "S1[247]": {
+   "new": "gUI_FG_R",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=0 P=0 readers=['Label_355'] writers=[]"
+    ],
+    [
+     "+",
+     "read by UI_Draw_ScrollArrows"
+    ],
+    [
+     "+",
+     "init via ModLoader_Statics.c"
+    ]
+   ]
+  },
+  "S1[248]": {
+   "new": "gUI_FG_G",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=0 P=0 readers=['Label_355'] writers=[]"
+    ],
+    [
+     "+",
+     "read by UI_Draw_ScrollArrows"
+    ],
+    [
+     "+",
+     "init via ModLoader_Statics.c"
+    ]
+   ]
+  },
+  "S1[249]": {
+   "new": "gUI_FG_B",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=0 P=0 readers=['Label_355'] writers=[]"
+    ],
+    [
+     "+",
+     "read by UI_Draw_ScrollArrows"
+    ],
+    [
+     "+",
+     "init via ModLoader_Statics.c"
+    ]
+   ]
+  },
+  "S1[250]": {
+   "new": "gUI_BgCenterY",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=6 W=1 P=0 readers=['Label_1151'] writers=['Label_1151']"
+    ],
+    [
+     "+",
+     "bg geometry owned by 1151"
+    ]
+   ]
+  },
+  "S1[251]": {
+   "new": "gUI_BgHeight",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=6 W=1 P=0 readers=['Label_1151'] writers=['Label_1151']"
+    ],
+    [
+     "+",
+     "bg geometry owned by 1151"
+    ]
+   ]
+  },
+  "S1[252]": {
+   "new": "gTheme_BackgroundTex",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=8 P=0 readers=['Label_1151'] writers=['Label_345', 'UnusedFunction_7']"
+    ],
+    [
+     "+",
+     "consumed per-frame by 1151"
+    ],
+    [
+     "+",
+     "8 string writes (switch cases + dead presets)"
+    ]
+   ]
+  },
+  "S1[253]": {
+   "new": "gTheme_OverlayTex",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=14 P=0 readers=['Label_1151'] writers=['Label_344', 'UnusedFunction_7']"
+    ],
+    [
+     "+",
+     "consumed per-frame by 1151"
+    ],
+    [
+     "+",
+     "14 string writes (switch cases + dead presets)"
+    ]
+   ]
+  },
+  "S1[254]": {
+   "new": "gUI_OverlayY",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=5 W=1 P=0 readers=['Label_1151', 'Label_352', 'UnusedFunction_1'] writers=['Label_1151']"
+    ],
+    [
+     "+",
+     "art Y in alien overlay 352"
+    ],
+    [
+     "+",
+     "set by 1151"
+    ]
+   ]
+  },
+  "S1[255]": {
+   "new": "gUI_NameBgW",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=0 readers=['Label_1151'] writers=['Label_1151']"
+    ],
+    [
+     "+",
+     "name-bg rect owned by 1151"
+    ]
+   ]
+  },
+  "S1[257]": {
+   "new": "gDead_257_Init1",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=0 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "0 reads (dead slot)"
+    ],
+    [
+     "+",
+     "init-only or never touched"
+    ]
+   ]
+  },
+  "S1[258]": {
+   "new": "gDead_258_Init250",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=0 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "0 reads (dead slot)"
+    ],
+    [
+     "+",
+     "init-only or never touched"
+    ]
+   ]
+  },
+  "S1[259]": {
+   "new": "gDead_259_Init250",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=0 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "0 reads (dead slot)"
+    ],
+    [
+     "+",
+     "init-only or never touched"
+    ]
+   ]
+  },
+  "S1[260]": {
+   "new": "gDead_260_Init250",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=0 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "0 reads (dead slot)"
+    ],
+    [
+     "+",
+     "init-only or never touched"
+    ]
+   ]
+  },
+  "S1[262]": {
+   "new": "gDead_262_Init1",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=0 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "0 reads (dead slot)"
+    ],
+    [
+     "+",
+     "init-only or never touched"
+    ]
+   ]
+  },
+  "S1[268]": {
+   "new": "gDead_268_Init255",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=0 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "0 reads (dead slot)"
+    ],
+    [
+     "+",
+     "init-only or never touched"
+    ]
+   ]
+  },
+  "S1[269]": {
+   "new": "gDead_269_Init255",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=0 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "0 reads (dead slot)"
+    ],
+    [
+     "+",
+     "init-only or never touched"
+    ]
+   ]
+  },
+  "S1[270]": {
+   "new": "gDead_270_Init255",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=0 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "0 reads (dead slot)"
+    ],
+    [
+     "+",
+     "init-only or never touched"
+    ]
+   ]
+  },
+  "S1[400]": {
+   "new": "gReserved_1_400",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=0 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "zero refs in code = verified free slot"
+    ]
+   ]
+  },
+  "S1[401]": {
+   "new": "gReserved_1_401",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=0 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "zero refs in code = verified free slot"
+    ]
+   ]
+  },
+  "S1[402]": {
+   "new": "gReserved_1_402",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=0 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "zero refs in code = verified free slot"
+    ]
+   ]
+  },
+  "S2[256]": {
+   "new": "gUI_NameBgH",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=0 readers=['Label_1151'] writers=['Label_1151']"
+    ],
+    [
+     "+",
+     "name-bg rect owned by 1151"
+    ]
+   ]
+  },
+  "S2[257]": {
+   "new": "gNet_ShowHost",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=0 P=2 readers=['Label_363', 'Label_83'] writers=[]"
+    ],
+    [
+     "+",
+     "tested by HOST row 363"
+    ],
+    [
+     "+",
+     "bit toggled in settings 83"
+    ]
+   ]
+  },
+  "S2[258]": {
+   "new": "gNet_InfoRowR",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=0 P=0 readers=['Label_363', 'Label_364'] writers=[]"
+    ],
+    [
+     "+",
+     "HOST/FPS row color"
+    ]
+   ]
+  },
+  "S2[259]": {
+   "new": "gNet_InfoRowG",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=0 P=0 readers=['Label_363', 'Label_364'] writers=[]"
+    ],
+    [
+     "+",
+     "HOST/FPS row color"
+    ]
+   ]
+  },
+  "S2[260]": {
+   "new": "gNet_InfoRowB",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=0 P=0 readers=['Label_363', 'Label_364'] writers=[]"
+    ],
+    [
+     "+",
+     "HOST/FPS row color"
+    ]
+   ]
+  },
+  "S2[261]": {
+   "new": "gNet_FpsValue",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=2 P=0 readers=['Label_363', 'Label_364'] writers=['Label_369', 'Label_83']"
+    ],
+    [
+     "+",
+     "computed by fps computer 369"
+    ],
+    [
+     "+",
+     "shown by FPS row 364"
+    ]
+   ]
+  },
+  "S2[262]": {
+   "new": "gNet_ShowFps",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=0 P=2 readers=['Label_364', 'Label_83'] writers=[]"
+    ],
+    [
+     "+",
+     "tested by FPS row 364"
+    ],
+    [
+     "+",
+     "bit toggled in settings 83"
+    ]
+   ]
+  },
+  "S2[263]": {
+   "new": "gNet_FpsSuffix",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=2 P=0 readers=['Label_364'] writers=['Label_364']"
+    ],
+    [
+     "+",
+     "suffix owned by FPS row 364"
+    ]
+   ]
+  },
+  "S2[264]": {
+   "new": "gNet_FpsTimerFlag",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=3 P=0 readers=['Label_369'] writers=['Label_369', 'Label_83']"
+    ],
+    [
+     "+",
+     "timer flag in fps computer 369"
+    ]
+   ]
+  },
+  "S2[265]": {
+   "new": "gNet_FpsFrameBase",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=0 readers=['Label_369'] writers=['Label_369']"
+    ],
+    [
+     "+",
+     "frame base in fps computer 369"
+    ]
+   ]
+  },
+  "S2[266]": {
+   "new": "gSprite_Width",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=10 W=1 P=0 readers=['Label_456', 'Label_475', 'Label_483', 'Label_491', 'Label_554'] writers=['Label_365']"
+    ],
+    [
+     "+",
+     "11 refs"
+    ]
+   ]
+  },
+  "S2[267]": {
+   "new": "gUI_RowWindowMax",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=8 P=0 readers=['Label_1157'] writers=['Label_1', 'Label_2282']"
+    ],
+    [
+     "+",
+     "9 refs (plausible UI state)"
+    ]
+   ]
+  },
+  "S2[268]": {
+   "new": "gTheme_TextUnselectedR",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=0 P=1 readers=['Label_260', 'Label_331'] writers=[]"
+    ],
+    [
+     "+",
+     "returned by UI_GetRowTextRGB when unselected"
+    ]
+   ]
+  },
+  "S2[269]": {
+   "new": "gTheme_TextUnselectedG",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=0 P=1 readers=['Label_260', 'Label_331'] writers=[]"
+    ],
+    [
+     "+",
+     "returned by UI_GetRowTextRGB when unselected"
+    ]
+   ]
+  },
+  "S2[270]": {
+   "new": "gTheme_TextUnselectedB",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=0 P=1 readers=['Label_260', 'Label_331'] writers=[]"
+    ],
+    [
+     "+",
+     "returned by UI_GetRowTextRGB when unselected"
+    ]
+   ]
+  },
+  "S2[271]": {
+   "new": "gCustomScript_Name_0",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=3 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "written by StoreKeyboardResult"
+    ],
+    [
+     "+",
+     "rendered by misc page"
+    ]
+   ]
+  },
+  "S2[279]": {
+   "new": "gCustomScript_Name_1",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=3 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "written by StoreKeyboardResult"
+    ],
+    [
+     "+",
+     "rendered by misc page"
+    ]
+   ]
+  },
+  "S2[287]": {
+   "new": "gCustomScript_Name_2",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=3 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "written by StoreKeyboardResult"
+    ],
+    [
+     "+",
+     "rendered by misc page"
+    ]
+   ]
+  },
+  "S2[295]": {
+   "new": "gCustomScript_Name_3",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=3 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "written by StoreKeyboardResult"
+    ],
+    [
+     "+",
+     "rendered by misc page"
+    ]
+   ]
+  },
+  "S2[303]": {
+   "new": "gCustomScript_Name_4",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=3 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "written by StoreKeyboardResult"
+    ],
+    [
+     "+",
+     "rendered by misc page"
+    ]
+   ]
+  },
+  "S2[311]": {
+   "new": "gCustomScript_Name_5",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=3 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "written by StoreKeyboardResult"
+    ],
+    [
+     "+",
+     "rendered by misc page"
+    ]
+   ]
+  },
+  "S2[319]": {
+   "new": "gCustomScript_Name_6",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=3 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "written by StoreKeyboardResult"
+    ],
+    [
+     "+",
+     "rendered by misc page"
+    ]
+   ]
+  },
+  "S2[327]": {
+   "new": "gCustomScript_Name_7",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=3 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "written by StoreKeyboardResult"
+    ],
+    [
+     "+",
+     "rendered by misc page"
+    ]
+   ]
+  },
+  "S2[335]": {
+   "new": "gCustomScript_Name_8",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=3 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "written by StoreKeyboardResult"
+    ],
+    [
+     "+",
+     "rendered by misc page"
+    ]
+   ]
+  },
+  "S2[343]": {
+   "new": "gCustomScript_Name_9",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=3 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "written by StoreKeyboardResult"
+    ],
+    [
+     "+",
+     "rendered by misc page"
+    ]
+   ]
+  },
+  "S2[351]": {
+   "new": "gHelp_BarInitialized",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=2 P=0 readers=['Label_164', 'Label_71'] writers=['Label_164', 'Label_167']"
+    ],
+    [
+     "+",
+     "help-slot state in Label_164"
+    ]
+   ]
+  },
+  "S2[352]": {
+   "new": "gHelp_SlotCounter",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=2 P=0 readers=['Label_164'] writers=['Label_164']"
+    ],
+    [
+     "+",
+     "help-slot state in Label_164"
+    ]
+   ]
+  },
+  "S2[353]": {
+   "new": "gHighlight_TexDict",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=5 W=11 P=0 readers=['Label_108', 'Label_436'] writers=['Label_1', 'Label_2386']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_UITheme"
+    ],
+    [
+     "+",
+     "consumed by UI_DrawHighlightBar"
+    ]
+   ]
+  },
+  "S2[354]": {
+   "new": "gHighlight_TexName",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=11 P=0 readers=['Label_108', 'Label_436'] writers=['Label_1', 'Label_2386']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_UITheme"
+    ],
+    [
+     "+",
+     "consumed by UI_DrawHighlightBar"
+    ]
+   ]
+  },
+  "S2[355]": {
+   "new": "gHighlight_TexPadX",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=4 W=11 P=0 readers=['Label_436'] writers=['Label_1', 'Label_2386']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_UITheme"
+    ],
+    [
+     "+",
+     "consumed by UI_DrawHighlightBar"
+    ]
+   ]
+  },
+  "S2[356]": {
+   "new": "gHighlight_TexBgName",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=11 P=0 readers=['Label_108', 'Label_436'] writers=['Label_1', 'Label_2386']"
+    ],
+    [
+     "+",
+     "init in Mod_Init_UITheme"
+    ],
+    [
+     "+",
+     "consumed by UI_DrawHighlightBar"
+    ]
+   ]
+  },
+  "S2[357]": {
+   "new": "gLang_Spanish",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=2 P=0 readers=['Label_1156', 'Label_163'] writers=['Label_1155']"
+    ],
+    [
+     "+",
+     "read by Util_LangPick_ES_EN"
+    ],
+    [
+     "+",
+     "2 writers (language page sets 1/0)"
+    ]
+   ]
+  },
+  "S2[358]": {
+   "new": "gUI_TextRowY",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=8 W=4 P=0 readers=['Label_427', 'Label_464', 'Label_487', 'Label_500', 'Label_546'] writers=['Label_464', 'Label_487', 'Label_500', 'Label_546']"
+    ],
+    [
+     "+",
+     "written by UI_RenderRow (text Y)"
+    ]
+   ]
+  },
+  "S2[359]": {
+   "new": "gTmp_SpriteNameBuf",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=3 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "3 refs"
+    ]
+   ]
+  },
+  "S2[362]": {
+   "new": "gUI_TextRowX",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=2 P=0 readers=['Label_546', 'Label_552'] writers=['Label_551']"
+    ],
+    [
+     "+",
+     "written by UI_SetRowTextXIndent (text X)"
+    ]
+   ]
+  },
+  "S2[363]": {
+   "new": "gDead_363_Zero",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=0 P=0 readers=['UnusedFunction_7'] writers=[]"
+    ],
+    [
+     "+",
+     "never written via StaticSet (constant 0)"
+    ],
+    [
+     "+",
+     "1 StaticGet reads observe constant-0"
+    ],
+    [
+     "+",
+     "ptrs (if any) are dead pushes via 71 (1940 body has no pGet/pSet)"
+    ]
+   ]
+  },
+  "S2[364]": {
+   "new": "gTheme_BackgroundChoice",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=4 P=1 readers=['Label_2314', 'Label_345'] writers=['UnusedFunction_7']"
+    ],
+    [
+     "+",
+     "3 reads (switch + display)"
+    ],
+    [
+     "+",
+     "FROZEN: 2315-row drops addr via 2277 (Label_80)"
+    ]
+   ]
+  },
+  "S2[365]": {
+   "new": "gTheme_OverlayChoice",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=4 P=1 readers=['Label_2317', 'Label_344'] writers=['UnusedFunction_7']"
+    ],
+    [
+     "+",
+     "3 reads (switch + display)"
+    ],
+    [
+     "+",
+     "FROZEN: 497-row drops addr via 2277 (Label_80)"
+    ]
+   ]
+  },
+  "S2[366]": {
+   "new": "gAnim_SelectedIndex",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=4 P=0 readers=['Label_1964', 'Label_73'] writers=['Label_73']"
+    ],
+    [
+     "+",
+     "cycled 0..27 in animations page"
+    ]
+   ]
+  },
+  "S2[367]": {
+   "new": "gPlayerMove_Row2_Index",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=4 P=0 readers=['Label_1168', 'Label_86'] writers=['Label_86']"
+    ],
+    [
+     "+",
+     "cycled in player-options page"
+    ]
+   ]
+  },
+  "S2[368]": {
+   "new": "gPlayerMove_ApplyFlag",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=4 W=0 P=0 readers=['Label_1168', 'Label_633'] writers=[]"
+    ],
+    [
+     "+",
+     "never written (DEAD, always 0)"
+    ],
+    [
+     "+",
+     "read by clipset applier"
+    ]
+   ]
+  },
+  "S2[369]": {
+   "new": "gPlayerOpt_Row3_Index",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=4 P=0 readers=['Label_1169', 'Label_86'] writers=['Label_86']"
+    ],
+    [
+     "+",
+     "cycled in player-options page"
+    ]
+   ]
+  },
+  "S2[370]": {
+   "new": "gWorld_ClearAreaMode",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=4 P=0 readers=['Label_119', 'Label_1846', 'Label_66'] writers=['Label_66']"
+    ],
+    [
+     "+",
+     "11 refs"
+    ]
+   ]
+  },
+  "S2[371]": {
+   "new": "gInput_BackKeyChoice1",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=1 P=1 readers=['Label_2278', 'Label_729'] writers=['Label_1']"
+    ],
+    [
+     "+",
+     "2 reads (apply-switch + display)"
+    ],
+    [
+     "+",
+     "LIVE: 2279-row keeps addr, 486 cycles it (Label_83)"
+    ]
+   ]
+  },
+  "S2[372]": {
+   "new": "gInput_BackKeyChoice2",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=1 P=1 readers=['Label_2280', 'Label_745'] writers=['Label_1']"
+    ],
+    [
+     "+",
+     "2 reads (apply-switch + display)"
+    ],
+    [
+     "+",
+     "LIVE: 2279-row keeps addr, 486 cycles it (Label_83)"
+    ]
+   ]
+  },
+  "S2[373]": {
+   "new": "gUI_RowsPerPageChoice",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=1 P=1 readers=['Label_2281', 'Label_2282'] writers=['Label_1']"
+    ],
+    [
+     "+",
+     "choice read by Settings_RowsPerPage"
+    ],
+    [
+     "+",
+     "FROZEN: 497-row drops addr via 2277 (Label_83)"
+    ]
+   ]
+  },
+  "S2[374]": {
+   "new": "gLang_ChoiceIndex",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=0 P=2 readers=['Label_1155', 'Label_60'] writers=[]"
+    ],
+    [
+     "+",
+     "switch subject (0=ES,1=EN)"
+    ]
+   ]
+  },
+  "S2[375]": {
+   "new": "gNotify_LastHandle",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=0 readers=['Label_1240'] writers=['Label_1240']"
+    ],
+    [
+     "+",
+     "handle stored by UI_Notify_Punisher"
+    ]
+   ]
+  },
+  "S2[376]": {
+   "new": "gTmp_ParachuteState",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=1 P=0 readers=['Label_86'] writers=['Label_86']"
+    ],
+    [
+     "+",
+     "3 refs (parachute-temp in notify path)"
+    ]
+   ]
+  },
+  "S2[377]": {
+   "new": "gUI_ScaleformHandle",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=34 W=1 P=0 readers=['Label_105'] writers=['Label_105']"
+    ],
+    [
+     "+",
+     "35 refs (plausible UI state)"
+    ]
+   ]
+  },
+  "S2[378]": {
+   "new": "gVehicle_SpawnRadioOff",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=2 P=0 readers=['Label_107', 'Label_2438'] writers=['Label_107']"
+    ],
+    [
+     "+",
+     "toggle in spawn settings 107"
+    ],
+    [
+     "+",
+     "applied by radio-flag 2438"
+    ]
+   ]
+  },
+  "S2[379]": {
+   "new": "gVehicle_SpawnGodmode",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=2 P=0 readers=['Label_107', 'Label_2442'] writers=['Label_107']"
+    ],
+    [
+     "+",
+     "toggle in spawn settings 107"
+    ],
+    [
+     "+",
+     "applied by godmode-flag 2442"
+    ]
+   ]
+  },
+  "S2[380]": {
+   "new": "gMisc_PS4Mode",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=0 P=2 readers=['Label_71'] writers=[]"
+    ],
+    [
+     "+",
+     "PS4-mode bit owned by misc page 71"
+    ]
+   ]
+  },
+  "S2[381]": {
+   "new": "gDead_381_Zero",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=1 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "never written via StaticSet (constant 0)"
+    ],
+    [
+     "+",
+     "0 StaticGet reads observe constant-0"
+    ],
+    [
+     "+",
+     "ptrs (if any) are dead pushes via 71 (1940 body has no pGet/pSet)"
+    ]
+   ]
+  },
+  "S2[382]": {
+   "new": "gDead_382_Zero",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=1 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "never written via StaticSet (constant 0)"
+    ],
+    [
+     "+",
+     "0 StaticGet reads observe constant-0"
+    ],
+    [
+     "+",
+     "ptrs (if any) are dead pushes via 71 (1940 body has no pGet/pSet)"
+    ]
+   ]
+  },
+  "S2[383]": {
+   "new": "gDead_383_Zero",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=1 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "never written via StaticSet (constant 0)"
+    ],
+    [
+     "+",
+     "0 StaticGet reads observe constant-0"
+    ],
+    [
+     "+",
+     "ptrs (if any) are dead pushes via 71 (1940 body has no pGet/pSet)"
+    ]
+   ]
+  },
+  "S2[384]": {
+   "new": "gDead_384_Zero",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=1 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "never written via StaticSet (constant 0)"
+    ],
+    [
+     "+",
+     "0 StaticGet reads observe constant-0"
+    ],
+    [
+     "+",
+     "ptrs (if any) are dead pushes via 71 (1940 body has no pGet/pSet)"
+    ]
+   ]
+  },
+  "S2[385]": {
+   "new": "gDead_385_Zero",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=1 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "never written via StaticSet (constant 0)"
+    ],
+    [
+     "+",
+     "0 StaticGet reads observe constant-0"
+    ],
+    [
+     "+",
+     "ptrs (if any) are dead pushes via 71 (1940 body has no pGet/pSet)"
+    ]
+   ]
+  },
+  "S2[386]": {
+   "new": "gDead_386_Zero",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=1 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "never written via StaticSet (constant 0)"
+    ],
+    [
+     "+",
+     "0 StaticGet reads observe constant-0"
+    ],
+    [
+     "+",
+     "ptrs (if any) are dead pushes via 71 (1940 body has no pGet/pSet)"
+    ]
+   ]
+  },
+  "S2[387]": {
+   "new": "gDead_387_Zero",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=1 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "never written via StaticSet (constant 0)"
+    ],
+    [
+     "+",
+     "0 StaticGet reads observe constant-0"
+    ],
+    [
+     "+",
+     "ptrs (if any) are dead pushes via 71 (1940 body has no pGet/pSet)"
+    ]
+   ]
+  },
+  "S2[388]": {
+   "new": "gDead_388_Zero",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=1 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "never written via StaticSet (constant 0)"
+    ],
+    [
+     "+",
+     "0 StaticGet reads observe constant-0"
+    ],
+    [
+     "+",
+     "ptrs (if any) are dead pushes via 71 (1940 body has no pGet/pSet)"
+    ]
+   ]
+  },
+  "S2[389]": {
+   "new": "gDead_389_Zero",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=1 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "never written via StaticSet (constant 0)"
+    ],
+    [
+     "+",
+     "0 StaticGet reads observe constant-0"
+    ],
+    [
+     "+",
+     "ptrs (if any) are dead pushes via 71 (1940 body has no pGet/pSet)"
+    ]
+   ]
+  },
+  "S2[390]": {
+   "new": "gDead_390_Zero",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=1 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "never written via StaticSet (constant 0)"
+    ],
+    [
+     "+",
+     "0 StaticGet reads observe constant-0"
+    ],
+    [
+     "+",
+     "ptrs (if any) are dead pushes via 71 (1940 body has no pGet/pSet)"
+    ]
+   ]
+  },
+  "S2[391]": {
+   "new": "gDead_391_Zero",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=0 P=0 readers=['Label_1966', 'Label_604', 'Label_73'] writers=[]"
+    ],
+    [
+     "+",
+     "never written via StaticSet (constant 0)"
+    ],
+    [
+     "+",
+     "7 StaticGet reads observe constant-0"
+    ],
+    [
+     "+",
+     "ptrs (if any) are dead pushes via 71 (1940 body has no pGet/pSet)"
+    ]
+   ]
+  },
+  "S2[392]": {
+   "new": "gAnim_Looped",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=2 P=0 readers=['Label_604', 'Label_73'] writers=['Label_73']"
+    ],
+    [
+     "+",
+     "used by animations page"
+    ]
+   ]
+  },
+  "S2[393]": {
+   "new": "gAnim_UpperOnly",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=2 P=0 readers=['Label_604', 'Label_73'] writers=['Label_73']"
+    ],
+    [
+     "+",
+     "used by animations page"
+    ]
+   ]
+  },
+  "S2[394]": {
+   "new": "gAnim_AllowMove",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=2 P=0 readers=['Label_604', 'Label_73'] writers=['Label_73']"
+    ],
+    [
+     "+",
+     "used by animations page"
+    ]
+   ]
+  },
+  "S2[395]": {
+   "new": "gAnim_Contorted",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=2 P=0 readers=['Label_604', 'Label_73'] writers=['Label_73']"
+    ],
+    [
+     "+",
+     "used by animations page"
+    ]
+   ]
+  },
+  "S2[396]": {
+   "new": "gNet_PlayerActiveCheck",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=8 W=0 P=0 readers=['Label_1509', 'Label_604', 'Label_73'] writers=[]"
+    ],
+    [
+     "+",
+     "8 refs"
+    ]
+   ]
+  },
+  "S2[397]": {
+   "new": "gArray_OutfitCache_R",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=84 P=0 readers=['Label_73'] writers=['Label_74', 'Label_75', 'Label_76', 'Label_77', 'Label_78']"
+    ],
+    [
+     "+",
+     "86 refs"
+    ]
+   ]
+  },
+  "S2[398]": {
+   "new": "gArray_OutfitCache_G",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=84 P=0 readers=['Label_73'] writers=['Label_74', 'Label_75', 'Label_76', 'Label_77', 'Label_78']"
+    ],
+    [
+     "+",
+     "86 refs"
+    ]
+   ]
+  },
+  "S2[399]": {
+   "new": "gArray_OutfitCache_B",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=84 P=0 readers=['Label_73'] writers=['Label_74', 'Label_75', 'Label_76', 'Label_77', 'Label_78']"
+    ],
+    [
+     "+",
+     "86 refs"
+    ]
+   ]
+  },
+  "S2[400]": {
+   "new": "gDead_400_Zero",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=0 P=0 readers=['Label_2084'] writers=[]"
+    ],
+    [
+     "+",
+     "never written via StaticSet (constant 0)"
+    ],
+    [
+     "+",
+     "1 StaticGet reads observe constant-0"
+    ],
+    [
+     "+",
+     "ptrs (if any) are dead pushes via 71 (1940 body has no pGet/pSet)"
+    ]
+   ]
+  },
+  "S2[401]": {
+   "new": "gHudColor_Idx",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=8 W=4 P=0 readers=['Label_2324', 'Label_2327', 'Label_2357', 'Label_89'] writers=['Label_89']"
+    ],
+    [
+     "+",
+     "cursor written by editor page 89"
+    ],
+    [
+     "+",
+     "index read by preset applier 2357"
+    ]
+   ]
+  },
+  "S2[402]": {
+   "new": "gHudColor_R",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=26 P=1 readers=['Label_2326', 'Label_2342', 'Label_89'] writers=['Label_2357', 'Label_89']"
+    ],
+    [
+     "+",
+     "channels edited by page 89 / preset 2357"
+    ],
+    [
+     "+",
+     "channels applied by 2342"
+    ],
+    [
+     "+",
+     "fetched via 2325"
+    ]
+   ]
+  },
+  "S2[403]": {
+   "new": "gHudColor_G",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=26 P=1 readers=['Label_2326', 'Label_2342', 'Label_89'] writers=['Label_2357', 'Label_89']"
+    ],
+    [
+     "+",
+     "channels edited by page 89 / preset 2357"
+    ],
+    [
+     "+",
+     "channels applied by 2342"
+    ],
+    [
+     "+",
+     "fetched via 2325"
+    ]
+   ]
+  },
+  "S2[404]": {
+   "new": "gHudColor_B",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=26 P=1 readers=['Label_2326', 'Label_2342', 'Label_89'] writers=['Label_2357', 'Label_89']"
+    ],
+    [
+     "+",
+     "channels edited by page 89 / preset 2357"
+    ],
+    [
+     "+",
+     "channels applied by 2342"
+    ],
+    [
+     "+",
+     "fetched via 2325"
+    ]
+   ]
+  },
+  "S2[405]": {
+   "new": "gHudColor_A",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=26 P=1 readers=['Label_2326', 'Label_2342', 'Label_89'] writers=['Label_2357', 'Label_89']"
+    ],
+    [
+     "+",
+     "channels edited by page 89 / preset 2357"
+    ],
+    [
+     "+",
+     "channels applied by 2342"
+    ],
+    [
+     "+",
+     "fetched via 2325"
+    ]
+   ]
+  },
+  "S2[406]": {
+   "new": "gAnim_SyncScene",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=3 W=1 P=0 readers=['Label_604'] writers=['Label_604']"
+    ],
+    [
+     "+",
+     "scene handle in anim player 604"
+    ]
+   ]
+  },
+  "S2[407]": {
+   "new": "gDead_407_Zero",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=0 P=0 readers=['Label_1989'] writers=[]"
+    ],
+    [
+     "+",
+     "never written via StaticSet (constant 0)"
+    ],
+    [
+     "+",
+     "1 StaticGet reads observe constant-0"
+    ],
+    [
+     "+",
+     "ptrs (if any) are dead pushes via 71 (1940 body has no pGet/pSet)"
+    ]
+   ]
+  },
+  "S2[408]": {
+   "new": "gArray_Base_408",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=1 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "array base in Array_GetIndexed_408"
+    ]
+   ]
+  },
+  "S2[409]": {
+   "new": "gDead_409_Zero",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=0 P=0 readers=['Label_690'] writers=[]"
+    ],
+    [
+     "+",
+     "never written via StaticSet (constant 0)"
+    ],
+    [
+     "+",
+     "1 StaticGet reads observe constant-0"
+    ],
+    [
+     "+",
+     "ptrs (if any) are dead pushes via 71 (1940 body has no pGet/pSet)"
+    ]
+   ]
+  },
+  "S2[410]": {
+   "new": "gDead_410_Zero",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=5 W=0 P=0 readers=['Label_1509'] writers=[]"
+    ],
+    [
+     "+",
+     "never written via StaticSet (constant 0)"
+    ],
+    [
+     "+",
+     "5 StaticGet reads observe constant-0"
+    ],
+    [
+     "+",
+     "ptrs (if any) are dead pushes via 71 (1940 body has no pGet/pSet)"
+    ]
+   ]
+  },
+  "S2[411]": {
+   "new": "gVehicle_SpawnState",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=7 W=2 P=0 readers=['Label_1509', 'Label_2437'] writers=['Label_1509']"
+    ],
+    [
+     "+",
+     "R/W inside vehicle spawner"
+    ]
+   ]
+  },
+  "S2[412]": {
+   "new": "gVehicle_SpawnPair",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=0 P=0 readers=['Label_1509'] writers=[]"
+    ],
+    [
+     "+",
+     "pair-store gate in spawner 1509"
+    ]
+   ]
+  },
+  "S2[413]": {
+   "new": "gVehicle_SpawnedA",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=1 P=0 readers=['Label_2437'] writers=['Label_1509']"
+    ],
+    [
+     "+",
+     "spawned handle stored by 1509"
+    ]
+   ]
+  },
+  "S2[414]": {
+   "new": "gVehicle_SpawnedB",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=1 P=0 readers=[] writers=['Label_1509']"
+    ],
+    [
+     "+",
+     "spawned handle stored by 1509"
+    ]
+   ]
+  },
+  "S2[415]": {
+   "new": "gVehicle_PaintR",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=1 P=0 readers=['Label_2437'] writers=['Label_2437']"
+    ],
+    [
+     "+",
+     "random paint RGB in 2437"
+    ]
+   ]
+  },
+  "S2[416]": {
+   "new": "gVehicle_PaintG",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=1 P=0 readers=['Label_2437'] writers=['Label_2437']"
+    ],
+    [
+     "+",
+     "random paint RGB in 2437"
+    ]
+   ]
+  },
+  "S2[417]": {
+   "new": "gVehicle_PaintB",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=2 W=1 P=0 readers=['Label_2437'] writers=['Label_2437']"
+    ],
+    [
+     "+",
+     "random paint RGB in 2437"
+    ]
+   ]
+  },
+  "S2[418]": {
+   "new": "gVehicle_CustomPlateEnabled",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=1 W=0 P=0 readers=['Label_2439'] writers=[]"
+    ],
+    [
+     "+",
+     "gates plate-text apply in 2439"
+    ]
+   ]
+  },
+  "S2[419]": {
+   "new": "gVehicle_PlateTextBuf",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=1 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "plate-text ptr in Vehicle_ApplyPlateText"
+    ]
+   ]
+  },
+  "S2[420]": {
+   "new": "gTmp_StrBuffer_100",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=3 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "3 refs"
+    ]
+   ]
+  },
+  "S2[434]": {
+   "new": "gReserved_2_434",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=0 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "zero refs in code = verified free slot"
+    ]
+   ]
+  },
+  "S2[435]": {
+   "new": "gReserved_2_435",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=0 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "zero refs in code = verified free slot"
+    ]
+   ]
+  },
+  "S2[436]": {
+   "new": "gReserved_2_436",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=0 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "zero refs in code = verified free slot"
+    ]
+   ]
+  },
+  "S2[437]": {
+   "new": "gReserved_2_437",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=0 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "zero refs in code = verified free slot"
+    ]
+   ]
+  },
+  "S2[438]": {
+   "new": "gReserved_2_438",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=0 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "zero refs in code = verified free slot"
+    ]
+   ]
+  },
+  "S2[439]": {
+   "new": "gReserved_2_439",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=0 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "zero refs in code = verified free slot"
+    ]
+   ]
+  },
+  "S2[440]": {
+   "new": "gReserved_2_440",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=0 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "zero refs in code = verified free slot"
+    ]
+   ]
+  },
+  "S2[441]": {
+   "new": "gReserved_2_441",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=0 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "zero refs in code = verified free slot"
+    ]
+   ]
+  },
+  "S2[442]": {
+   "new": "gReserved_2_442",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=0 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "zero refs in code = verified free slot"
+    ]
+   ]
+  },
+  "S2[450]": {
+   "new": "gReserved_2_450",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=0 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "zero refs in code = verified free slot"
+    ]
+   ]
+  },
+  "S2[460]": {
+   "new": "gReserved_2_460",
+   "verdict": "VERIFIED",
+   "evidence": [
+    [
+     "i",
+     "R=0 W=0 P=0 readers=[] writers=[]"
+    ],
+    [
+     "+",
+     "zero refs in code = verified free slot"
+    ]
+   ]
+  }
+ },
+ "unmapped_statics_in_code": [],
+ "tally_labels": {
+  "VERIFIED": 340,
+  "LIKELY": 1
+ },
+ "tally_statics": {
+  "VERIFIED": 340,
+  "LIKELY": 12
+ }
+}
